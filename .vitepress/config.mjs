@@ -31,7 +31,7 @@ export default defineConfig({
   // ─── Tema ───────────────────────────────────────────────────────────────
   themeConfig: {
     logo: '/logo.svg',
-    siteTitle: 'Ayuda',
+    siteTitle: false,
 
     // Navegación superior
     nav: [
