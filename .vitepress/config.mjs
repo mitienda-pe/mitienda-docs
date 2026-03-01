@@ -11,8 +11,8 @@ export default defineConfig({
 
   // ─── SEO ───────────────────────────────────────────────────────────────
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
-    ['meta', { name: 'theme-color', content: '#0F75E0' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['meta', { name: 'theme-color', content: '#00b2a6' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'MiTienda.pe Ayuda' }],
     ['meta', { property: 'og:image', content: 'https://ayuda.mitienda.pe/og-image.png' }],
@@ -30,7 +30,7 @@ export default defineConfig({
 
   // ─── Tema ───────────────────────────────────────────────────────────────
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/logo.svg',
     siteTitle: 'Centro de Ayuda',
 
     // Navegación superior
