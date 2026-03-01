@@ -49,7 +49,7 @@ Lista de los productos con más ventas en el periodo, ordenados por cantidad ven
 Los datos se actualizan en tiempo real cada vez que ingresas o recargas la página.
 
 **¿Puedo exportar los datos del Dashboard?**
-El Dashboard es solo de visualización. Para exportaciones detalladas, usa la sección [Reportes](../04-reportes.md).
+El Dashboard es solo de visualización. Para exportaciones detalladas, usa la sección [Reportes](/04-reportes).
 
 **¿Qué significa el porcentaje de cambio?**
 Compara el periodo actual con el periodo anterior del mismo largo. Por ejemplo, si ves los últimos 7 días, lo compara con los 7 días previos.

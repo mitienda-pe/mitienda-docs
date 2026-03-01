@@ -2,6 +2,9 @@
    Variables de marca MiTienda.pe
    Ajusta los colores según tu brand guide oficial */
 
+/* Google Fonts — Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 :root {
   /* Color primario — azul MiTienda */
   --vp-c-brand-1: #0F75E0;
@@ -34,9 +37,6 @@
   --vp-c-brand-3: #0D2540;
   --vp-c-brand-soft: rgba(77, 163, 247, 0.14);
 }
-
-/* Google Fonts — Inter */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
 /* ─── Homepage hero ────────────────────────────────────────────────────── */
 .VPHero .name {

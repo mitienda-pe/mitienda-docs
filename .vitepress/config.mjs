@@ -244,7 +244,7 @@ export default defineConfig({
     lineNumbers: false,
     // Anclas en encabezados
     anchor: {
-      permalink: true
+      permalink: false
     }
   },
 })
