@@ -243,9 +243,5 @@ export default defineConfig({
   markdown: {
     // Números de línea en bloques de código
     lineNumbers: false,
-    // Anclas en encabezados
-    anchor: {
-      permalink: false
-    }
   },
 })
