@@ -11,9 +11,11 @@ Las listas son colecciones curadas de productos que puedes mostrar en la página
 | Campo | Descripción |
 |---|---|
 | Nombre | Título de la colección (ej: "Más vendidos") |
+| Código | Identificador único de la lista |
 | Descripción | Texto descriptivo opcional |
+| Tipo | Manual (seleccionas los productos) o automática (según reglas) |
 | Orden | Posición en la homepage |
-| Activa | Si se muestra o no en el storefront |
+| Estado | Si se muestra o no en el storefront |
 | Productos | Productos que forman parte de la lista |
 
 ## Agregar productos a una lista

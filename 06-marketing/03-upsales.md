@@ -1,16 +1,17 @@
-# Upsell / Cross-sell
+# Upsales
 
-**Ruta:** Panel Administrador → Marketing → Upsell
+**Ruta:** Panel Administrador → Marketing → Upsales
 
-## ¿Qué es el Upsell?
+## ¿Qué son los Upsales?
 
-El upsell te permite sugerir productos complementarios o superiores cuando un comprador agrega un producto al carrito. Aumenta el valor promedio de cada pedido.
+Los upsales te permiten sugerir productos complementarios o superiores durante el checkout. Aumenta el valor promedio de cada pedido.
 
-## Crear una regla de upsell
+## Crear una regla de upsale
 
 | Campo | Descripción |
 |---|---|
 | Nombre de la regla | Identificador interno |
+| Descripción | Descripción interna de la regla (opcional) |
 | Productos trigger | Los productos que, al estar en el carrito, activan la sugerencia |
 | Productos sugeridos | Los productos que se recomiendan al comprador |
 | Estado | Activa o inactiva |
@@ -22,7 +23,7 @@ El upsell te permite sugerir productos complementarios o superiores cuando un co
 ## Preguntas frecuentes
 
 **¿Dónde aparece la sugerencia al comprador?**
-Las sugerencias se muestran en la página del carrito o en la página del producto, según la configuración del tema de tu tienda.
+Las sugerencias se muestran durante el checkout.
 
 **¿Puedo tener múltiples reglas activas?**
 Sí. Puedes crear tantas reglas como necesites para diferentes combinaciones de productos.

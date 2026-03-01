@@ -1,8 +1,8 @@
-# Mensajes Personalizados
+# Mensajes
 
 **Ruta:** Panel Administrador → Contenido → Mensajes
 
-## ¿Qué son los Mensajes Personalizados?
+## ¿Qué son los Mensajes?
 
 Son textos que aparecen en momentos clave del proceso de compra de tu tienda. Puedes personalizarlos para comunicar información importante a tus compradores.
 
@@ -17,7 +17,7 @@ Son textos que aparecen en momentos clave del proceso de compra de tu tienda. Pu
 
 ## Editar un mensaje
 
-Haz clic en el mensaje que deseas editar, escribe el texto (puedes usar HTML básico para negritas, links, etc.) y guarda.
+Haz clic en el mensaje que deseas editar. Cada mensaje cuenta con un **editor WYSIWYG completo** con barra de herramientas (negrita, cursiva, listas, links, imágenes). Edita el texto y guarda.
 
 ## Ejemplos de uso
 

@@ -1,25 +1,39 @@
-# Tarjeta de Producto
+# Viñeta de Producto
 
-**Ruta:** Panel Administrador → Apariencia → Tarjeta de Producto
+**Ruta:** Panel Administrador → Apariencia → Viñeta de Producto
 
-## ¿Qué es la Tarjeta de Producto?
+## ¿Qué es la Viñeta de Producto?
 
-La tarjeta de producto es el elemento visual que aparece en los listados del catálogo: la imagen, el nombre, el precio y otros datos del producto en formato de grilla.
+La viñeta de producto es el elemento visual que aparece en los listados del catálogo: la imagen, el nombre, el precio y otros datos del producto en formato de grilla.
 
-## Configuraciones disponibles
+## Estilos de viñeta
 
-- **Estilo de tarjeta** — selecciona entre los diseños disponibles
-- **Elementos visibles** — elige qué mostrar en cada tarjeta:
-  - Precio
-  - Badge de descuento
-  - Disponibilidad / stock
-  - Marca
-  - Badge "Nuevo"
+Selecciona entre 4 estilos disponibles:
+
+| Estilo | Descripción |
+|---|---|
+| Predeterminado | Diseño estándar sin bordes |
+| Con borde | Agrega un borde alrededor de toda la viñeta |
+| Borde en foto | Borde solo alrededor de la imagen del producto |
+| Sombra en foto | Sombra sutil en la imagen del producto |
+
+## Radio de borde
+
+Configura el redondeo de las esquinas de la viñeta:
+
+- **Sin redondeo** — esquinas rectas
+- **Sutil (4px)** — ligero redondeo
+- **Moderado (8px)** — redondeo medio
+- **Redondeado (12px)** — esquinas muy redondeadas
+
+## Efectos Hover
+
+Configura el efecto visual que se aplica cuando el usuario pasa el cursor sobre la viñeta.
 
 ## Preguntas frecuentes
 
 **¿Los cambios afectan a todas las páginas de listado?**
-Sí. El estilo de tarjeta se aplica en todo el catálogo: categorías, búsquedas y listas.
+Sí. El estilo de viñeta se aplica en todo el catálogo: categorías, búsquedas y listas.
 
-**¿Puedo tener tarjetas diferentes en distintas secciones?**
+**¿Puedo tener viñetas diferentes en distintas secciones?**
 Por ahora hay un estilo único para todo el catálogo.

@@ -1,10 +1,10 @@
-# Galería de Imágenes
+# Imágenes
 
-**Ruta:** Panel Administrador → Contenido → Galería
+**Ruta:** Panel Administrador → Contenido → Imágenes
 
-## ¿Qué es la Galería?
+## ¿Qué es la sección de Imágenes?
 
-La galería es un repositorio centralizado de imágenes de tu tienda. Desde aquí puedes subir imágenes y obtener su URL para usarlas en páginas, posts del blog o cualquier otro lugar.
+Es un repositorio centralizado de imágenes de tu tienda. Desde aquí puedes subir imágenes y obtener su URL para usarlas en páginas, posts del blog o cualquier otro lugar.
 
 ## Subir imágenes
 
@@ -12,7 +12,7 @@ Haz clic en **Subir imagen** y selecciona el archivo desde tu computadora.
 
 **Formatos aceptados:** JPG, PNG, WebP, GIF.
 
-Las imágenes se almacenan en Cloudflare R2 y se sirven de forma rápida globalmente.
+Las imágenes se almacenan en S3 y se sirven de forma rápida globalmente.
 
 ## Copiar la URL de una imagen
 
@@ -28,7 +28,7 @@ Puedes eliminar imágenes que ya no necesitas. Ten cuidado: si la imagen está s
 El límite depende de tu plan de suscripción.
 
 **¿Puedo organizar las imágenes en carpetas?**
-Por ahora la galería no tiene sistema de carpetas. Se muestran en orden cronológico de subida.
+No hay sistema de carpetas, pero puedes usar el filtro **"Todas las fuentes"** para filtrar imágenes por su origen. Las imágenes se muestran en orden cronológico de subida.
 
 **¿Las imágenes de la galería son las mismas que las de productos?**
 No. Las imágenes de productos se gestionan directamente desde el formulario de cada producto. La galería es para imágenes de páginas, blog y contenido general.

@@ -10,14 +10,14 @@ Define los colores de cada sección de tu tienda para que refleje la identidad d
 
 | Sección | Colores configurables |
 |---|---|
-| **Header** | Fondo, texto, acento |
-| **Navbar** | Fondo, links, link activo |
-| **Body** | Fondo, títulos, texto, links, botón (fondo y texto) |
-| **Footer** | Fondo, títulos, texto, links |
+| **Encabezado** | Fondo, texto, acento, iconos |
+| **Barra de Navegación** | Fondo, links, link activo |
+| **Contenido** | Fondo, títulos, texto, links, botón (fondo y texto) |
+| **Pie de página** | Fondo, títulos, texto, links |
 
 ## Presets de colores
 
-Si no quieres configurar los colores uno a uno, puedes aplicar uno de los 10 presets prediseñados:
+Si no quieres configurar los colores uno a uno, puedes aplicar una de las **4 Combinaciones Rápidas** prediseñadas:
 
 | Preset | Estilo |
 |---|---|
@@ -25,12 +25,8 @@ Si no quieres configurar los colores uno a uno, puedes aplicar uno de los 10 pre
 | Océano Moderno | Tonos azules |
 | Atardecer Vibrante | Tonos cálidos y naranja |
 | Profesional Clásico | Azul oscuro y gris |
-| Eco-Friendly | Tonos verdes |
-| Medianoche | Índigo y azul profundo |
-| Rosado Suave | Rosa pastel |
-| Dorado Elegante | Dorado y negro |
-| Terracota | Tonos tierra |
-| Morado Real | Púrpura profundo |
+
+Para ver más opciones, haz clic en **Ver Biblioteca** donde encontrarás combinaciones adicionales.
 
 ## Preguntas frecuentes
 

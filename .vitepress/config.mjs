@@ -74,7 +74,7 @@ export default defineConfig({
           { text: 'Productos', link: '/05-catalogo/01-productos' },
           { text: 'Categorías', link: '/05-catalogo/02-categorias' },
           { text: 'Marcas', link: '/05-catalogo/03-marcas' },
-          { text: 'Gamas / Líneas', link: '/05-catalogo/04-gammas' },
+          { text: 'Gammas', link: '/05-catalogo/04-gammas' },
           { text: 'Atributos y Variantes', link: '/05-catalogo/05-atributos' },
           { text: 'Etiquetas', link: '/05-catalogo/06-etiquetas' },
           { text: 'Listas de Productos', link: '/05-catalogo/07-listas' },
@@ -86,7 +86,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Promociones', link: '/06-marketing/01-promociones' },
-          { text: 'Upsell / Cross-sell', link: '/06-marketing/03-upsales' },
+          { text: 'Upsales', link: '/06-marketing/03-upsales' },
           { text: 'Combos', link: '/06-marketing/04-combos' },
           { text: 'Barras de Anuncio', link: '/06-marketing/05-barras-anuncio' },
           { text: 'Códigos de Referido', link: '/06-marketing/06-referidos' },
@@ -99,20 +99,20 @@ export default defineConfig({
           { text: 'Páginas', link: '/07-contenido/01-paginas' },
           { text: 'Blog', link: '/07-contenido/02-blog' },
           { text: 'Páginas Legales', link: '/07-contenido/03-paginas-legales' },
-          { text: 'Carrusel / Banners', link: '/07-contenido/04-carrusel' },
-          { text: 'Galería de Imágenes', link: '/07-contenido/05-galeria' },
+          { text: 'Carrusel de Portada', link: '/07-contenido/04-carrusel' },
+          { text: 'Imágenes', link: '/07-contenido/05-galeria' },
           { text: 'Componentes', link: '/07-contenido/06-componentes' },
-          { text: 'Mensajes Personalizados', link: '/07-contenido/07-mensajes' },
+          { text: 'Mensajes', link: '/07-contenido/07-mensajes' },
         ]
       },
       {
         text: 'Apariencia',
         collapsed: true,
         items: [
-          { text: 'Logo y Branding', link: '/08-apariencia/01-general' },
+          { text: 'Configuración', link: '/08-apariencia/01-general' },
           { text: 'Colores', link: '/08-apariencia/02-colores' },
           { text: 'Tipografía', link: '/08-apariencia/03-tipografia' },
-          { text: 'Tarjeta de Producto', link: '/08-apariencia/04-tarjeta-producto' },
+          { text: 'Viñeta de Producto', link: '/08-apariencia/04-tarjeta-producto' },
           { text: 'Menú de Navegación', link: '/08-apariencia/05-menu' },
         ]
       },

@@ -1,6 +1,6 @@
-# Logo y Branding
+# Configuración de la Tienda
 
-**Ruta:** Panel Administrador → Apariencia → General
+**Ruta:** Panel Administrador → Apariencia → Configuración
 
 ## ¿Qué puedes configurar aquí?
 
@@ -18,11 +18,13 @@ Sube el logo principal de tu tienda. Este aparece en el header del storefront.
 
 El favicon es el pequeño ícono que aparece en la pestaña del navegador.
 
-**Formatos aceptados:** ICO, PNG (16×16 o 32×32 píxeles).
+**Formatos aceptados:** PNG cuadrado de 512×512 px o SVG.
 
-## Banner principal
+## Catálogo
 
-Imagen de fondo o banner para la sección hero de tu homepage (si el tema lo soporta).
+Configura la visualización del catálogo de productos:
+
+- **Columnas del catálogo** — selecciona cuántas columnas mostrar en el listado de productos (3, 4 o 6 columnas)
 
 ## Preguntas frecuentes
 

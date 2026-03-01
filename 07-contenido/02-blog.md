@@ -8,7 +8,7 @@ El blog te permite publicar artículos, noticias y contenido de valor para tus c
 
 ## Crear un post
 
-Ve a **Contenido → Blog → Nuevo Post**.
+Ve a **Contenido → Blog → + Nueva Entrada**.
 
 | Campo | Descripción |
 |---|---|
@@ -31,7 +31,7 @@ Cada categoría tiene nombre, slug y puede tener descripción.
 
 ## Editores
 
-Los mismos tres modos disponibles en Páginas: Visual (WYSIWYG), Código (HTML) y Constructor Visual (MTBuilder).
+Los mismos tres modos disponibles en Páginas: Visual (WYSIWYG), Código (HTML) y Visual Builder.
 
 ## Preguntas frecuentes
 

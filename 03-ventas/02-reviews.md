@@ -9,8 +9,8 @@ Aquí moderas las reseñas que los compradores dejan sobre tus productos. Puedes
 ## Listado de reviews
 
 **Filtros disponibles:**
+
 - Estado (pendiente, aprobada, rechazada)
-- Producto
 - Calificación (1 a 5 estrellas)
 
 Cada review muestra el producto, el nombre del comprador, la calificación, el comentario y la fecha.
@@ -29,9 +29,12 @@ Puedes aprobar o rechazar cada review de forma individual. También puedes hacer
 
 ## Estadísticas
 
-El módulo muestra, por producto:
-- Rating promedio (estrellas)
-- Distribución por calificación (cuántas reviews de 1, 2, 3, 4 y 5 estrellas)
+El módulo muestra estadísticas globales en la parte superior:
+
+- **Total** — cantidad total de opiniones recibidas
+- **Pendientes** — opiniones que aún no han sido moderadas
+- **Aprobadas** — opiniones aprobadas y visibles en la tienda
+- **Rating promedio** — calificación promedio en estrellas
 
 ## Preguntas frecuentes
 

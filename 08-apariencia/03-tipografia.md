@@ -8,13 +8,14 @@ Define las fuentes que usa tu tienda para títulos y textos.
 
 ## Configuraciones disponibles
 
-- **Fuente para encabezados** — la que usan los títulos (H1, H2, etc.)
-- **Fuente para texto de cuerpo** — la que usa el texto general
-- **Tamaños de fuente** — ajusta el tamaño base
+La tipografía se configura **por sección** de la tienda (Encabezado, Barra de Navegación, Contenido, Pie de página), lo que permite mayor granularidad en el diseño.
+
+- **Fuente por sección** — elige la fuente para cada sección de la tienda
+- **Escala Global** — ajusta el tamaño base de toda la tipografía
 
 ## Presets de tipografía
 
-Puedes aplicar uno de los 10 presets prediseñados para lograr un look consistente rápidamente:
+Puedes aplicar una de las **4 Combinaciones Rápidas** prediseñadas para lograr un look consistente rápidamente:
 
 | Preset | Encabezados | Cuerpo |
 |---|---|---|
@@ -22,12 +23,8 @@ Puedes aplicar uno de los 10 presets prediseñados para lograr un look consisten
 | Moderno | Montserrat | Open Sans |
 | Profesional | Raleway | Roboto |
 | Editorial | Cormorant Garamond | Mulish |
-| Minimalista | Inter | Inter |
-| Artesanal | Caveat (manuscrita) | Nunito |
-| Clásico | Merriweather | Source Sans 3 |
-| Tecnológico | DM Sans | JetBrains Mono |
-| Vibrante | Comfortaa | Quicksand |
-| Lujo | Cormorant Garamond | Lato |
+
+Para ver más opciones, haz clic en **Ver Biblioteca** donde encontrarás combinaciones adicionales.
 
 ## Preguntas frecuentes
 

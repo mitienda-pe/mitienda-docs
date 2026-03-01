@@ -1,6 +1,6 @@
 # Códigos de Referido
 
-**Ruta:** Panel Administrador → Marketing → Referidos
+**Ruta:** Panel Administrador → Marketing → Códigos de Referido
 
 ## ¿Qué son los Códigos de Referido?
 
@@ -22,12 +22,12 @@ El comprador ingresa el código en el storefront durante el proceso de compra. A
 
 ## Ver qué pedidos usaron un código
 
-Desde el listado de pedidos puedes filtrar por código de referido para ver todas las ventas generadas por un referido específico.
+Puedes ver el código de referido asociado en el detalle de cada pedido.
 
 ## Preguntas frecuentes
 
 **¿Los códigos de referido dan descuento al comprador?**
-No por defecto. Son solo de rastreo. Si quieres dar un descuento al usarlos, crea una Promoción Avanzada con activación por referido. Ver: [Promociones](01-promociones.md).
+No por defecto. Son solo de rastreo. Si quieres dar un descuento al usarlos, crea una Promoción v2 con activación por referido. Ver: [Promociones](01-promociones.md).
 
 **¿Puedo desactivar un código sin eliminarlo?**
 Sí. El switch de estado permite activar o desactivar el código en cualquier momento.

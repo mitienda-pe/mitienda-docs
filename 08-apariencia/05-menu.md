@@ -8,11 +8,11 @@ El menú de navegación es la barra principal de tu tienda que permite a los com
 
 ## Agregar un item al menú
 
-Haz clic en **Agregar elemento** y configura:
+Haz clic en **+ Agregar enlace** y configura:
 
 | Campo | Descripción |
 |---|---|
-| Label | Texto visible en el menú (ej: "Ofertas") |
+| Etiqueta | Texto visible en el menú (ej: "Ofertas") |
 | Tipo de enlace | Qué tipo de página enlaza |
 | URL destino | Se completa automáticamente según el tipo |
 | Abrir en nueva pestaña | Si el enlace abre en una nueva ventana |
@@ -25,7 +25,7 @@ Haz clic en **Agregar elemento** y configura:
 | Subcategoría | Página de una subcategoría |
 | Producto | Página de un producto específico |
 | Marca | Página de una marca |
-| Gama | Página de una gama/línea |
+| Gamma | Página de una gamma (sub-marca) |
 | Lista | Una lista de productos curada |
 | Página | Una página personalizada (ej: "Quiénes somos") |
 | Categoría de blog | Listado de posts de una categoría del blog |
@@ -35,9 +35,9 @@ Haz clic en **Agregar elemento** y configura:
 ## Crear submenús (jerarquía)
 
 Para crear un ítem hijo (submenú desplegable):
+
 1. Agrega el ítem
-2. Arrástralo debajo del ítem padre
-3. Desplázalo ligeramente a la derecha para anidarlo
+2. En el campo **Elemento padre**, selecciona el ítem bajo el cual quieres anidarlo
 
 Se soportan hasta **3 niveles**: padre → hijo → nieto.
 

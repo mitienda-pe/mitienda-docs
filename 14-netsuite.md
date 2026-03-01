@@ -21,31 +21,33 @@ Ingresa las credenciales OAuth 1.0 que te proporciona tu administrador de NetSui
 | Consumer Secret | Secret del consumidor OAuth |
 | Token ID | Token de acceso |
 | Token Secret | Secret del token |
-| RESTlet URL (Stock) | URL del script de NetSuite para stock |
-| RESTlet URL (Pedidos) | URL del script para órdenes |
-| RESTlet URL (Precios) | URL del script para precios |
-| RESTlet URL (Promociones) | URL del script para promociones |
+| Subsidiary ID | ID de la subsidiaria en NetSuite |
+| Ubicación Serie ID | ID de ubicación para series |
+| Generic Customer ID | ID de cliente genérico en NetSuite |
+| Bonification Item ID | ID del ítem de bonificación |
+| Price Level ID | ID del nivel de precio |
+| Customer Category ID | ID de categoría de cliente |
 
 Haz clic en **Test de conexión** para verificar que las credenciales son correctas.
 
-### Pestaña 2: Mapeo de Inventario
+### Pestaña 2: Series
 
-Define la equivalencia entre los SKUs de MiTienda y los Internal IDs de NetSuite. Sin este mapeo, el sistema no puede sincronizar el stock correctamente.
-
-- El mapeo puede ser manual (escribes cada equivalencia) o automático (si los SKUs coinciden)
-- También configuras las **ubicaciones de inventario** (warehouses) de NetSuite
-
-### Pestaña 3: Stock
-
-Configura la sincronización bidireccional de inventario:
-- Frecuencia de sincronización (cada X minutos)
-- Dirección: NetSuite → MiTienda, MiTienda → NetSuite, o ambas
-- Registro de la última sincronización exitosa
-
-### Pestaña 4: Configuración adicional
+Configura el mapeo de series de documentos:
 
 - **Series de documentos:** mapeo entre las series de boletas/facturas de MiTienda y las series de NetSuite
 - **Cuentas de caja:** mapeo de las cuentas contables de NetSuite con los métodos de pago de MiTienda
+- **Sucursales (Branches):** configuración de sucursales asociadas
+
+### Pestaña 3: Precios
+
+Configura la sincronización de precios desde NetSuite:
+
+- Importación de precios desde el ERP
+- Mapeo de niveles de precios entre ambas plataformas
+
+### Pestaña 4: Pruebas
+
+Permite realizar pruebas de conexión y sincronización para verificar que la integración funciona correctamente antes de activarla en producción.
 
 ## Sincronizaciones disponibles
 
@@ -55,6 +57,21 @@ Configura la sincronización bidireccional de inventario:
 | **Precios** | NetSuite → MiTienda. Importa precios desde el ERP |
 | **Pedidos** | MiTienda → NetSuite. Cada pedido pagado se envía al ERP |
 | **Promociones** | NetSuite → MiTienda. Importa descuentos configurados en el ERP |
+
+## Stock
+
+**Ruta:** Panel Administrador → NetSuite → Stock
+
+El módulo de Stock es una página separada que permite consultar el estado del inventario sincronizado entre MiTienda y NetSuite.
+
+| Columna | Descripción |
+|---|---|
+| SKU | Código del producto |
+| Producto | Nombre del producto |
+| NS Item ID | Internal ID en NetSuite |
+| Stock Local | Cantidad en MiTienda |
+| Stock NetSuite | Cantidad en NetSuite |
+| Estado | Estado de la sincronización |
 
 ## Monitor de sincronización
 

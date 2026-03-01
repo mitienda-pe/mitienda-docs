@@ -15,7 +15,9 @@ Los combos (o bundles) agrupan varios productos en un solo paquete a un precio e
 | Precio del combo | Precio especial del paquete (menor a la suma individual) |
 | Imagen | Imagen representativa del combo |
 | Productos incluidos | Lista de productos con cantidad de cada uno |
-| Estado | Activo o inactivo |
+| Combo activo | Toggle para activar o desactivar el combo |
+| Mostrar en catálogo | Toggle para mostrar el combo en el listado de productos |
+| Mostrar en carrito | Toggle para sugerir el combo en la página del carrito |
 
 ## Ejemplo práctico
 

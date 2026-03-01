@@ -15,10 +15,16 @@ Ve a **Contenido → Páginas → Nueva Página**.
 | Título | Nombre de la página |
 | Slug | URL de la página (ej: `quienes-somos`). Generado automáticamente, editable |
 | Contenido | Cuerpo de la página (ver editores abajo) |
-| Publicado | Si la página es visible en la tienda |
 | Meta título | SEO: título para buscadores |
 | Meta descripción | SEO: descripción para buscadores |
-| Imagen Open Graph | Imagen al compartir en redes sociales |
+
+::: tip Nota
+El formulario inicial de "Nueva Página" muestra solo los campos básicos (Título, Slug, Contenido). Los campos de publicación, SEO e imagen Open Graph aparecen en una fase posterior del editor.
+:::
+
+::: warning Límite de páginas
+Tu plan tiene un límite máximo de páginas (ej: 20 páginas). Puedes ver el progreso en la barra indicadora del listado.
+:::
 
 ## Editores disponibles
 
@@ -39,7 +45,8 @@ Interfaz tipo Word. Ideal para usuarios sin conocimientos técnicos. Permite apl
 ### Editor de Código (HTML)
 Editor de código HTML con resaltado de sintaxis. Para usuarios que prefieren trabajar directamente con el código.
 
-### Constructor Visual (MTBuilder)
+### Visual Builder
+
 Constructor por bloques con interfaz drag & drop. Ideal para páginas más complejas con secciones, columnas e imágenes. Guarda el contenido en formato de bloques.
 
 > Puedes cambiar el editor de una página en cualquier momento, pero el contenido previo puede verse afectado si cambias entre Visual Builder y los otros editores.

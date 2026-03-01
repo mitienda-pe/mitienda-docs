@@ -1,10 +1,10 @@
-# Gamas / Líneas
+# Gammas
 
-**Ruta:** Panel Administrador → Catálogo → Gamas
+**Ruta:** Panel Administrador → Catálogo → Gammas
 
-## ¿Qué son las Gamas?
+## ¿Qué son las Gammas?
 
-Las gamas (o líneas de producto) son un nivel de clasificación adicional dentro de una marca. Por ejemplo: la marca "Nike" puede tener las gamas "Air Max", "React" y "Free Run".
+Las gammas (o sub-marcas) son un nivel de clasificación adicional dentro de una marca. Por ejemplo: la marca "Nike" puede tener las gammas "Air Max", "React" y "Free Run".
 
 ## Crear una gama
 
