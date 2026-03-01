@@ -1,0 +1,97 @@
+/* .vitepress/theme/custom.css
+   Variables de marca MiTienda.pe
+   Ajusta los colores según tu brand guide oficial */
+
+:root {
+  /* Color primario — azul MiTienda */
+  --vp-c-brand-1: #0F75E0;
+  --vp-c-brand-2: #0D64C4;
+  --vp-c-brand-3: #EBF4FF;
+  --vp-c-brand-soft: rgba(15, 117, 224, 0.14);
+
+  /* Botones */
+  --vp-button-brand-bg: #0F75E0;
+  --vp-button-brand-hover-bg: #0D64C4;
+  --vp-button-brand-active-bg: #0A55A8;
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-text: #ffffff;
+
+  /* Links */
+  --vp-c-brand: #0F75E0;
+
+  /* Nav */
+  --vp-nav-bg-color: #ffffff;
+
+  /* Tipografía — Inter para todo */
+  --vp-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* Dark mode */
+.dark {
+  --vp-c-brand-1: #4DA3F7;
+  --vp-c-brand-2: #3D95F0;
+  --vp-c-brand-3: #0D2540;
+  --vp-c-brand-soft: rgba(77, 163, 247, 0.14);
+}
+
+/* Google Fonts — Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ─── Homepage hero ────────────────────────────────────────────────────── */
+.VPHero .name {
+  background: linear-gradient(120deg, #0F75E0, #0D64C4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ─── Sidebar ──────────────────────────────────────────────────────────── */
+.VPSidebarItem.level-0 > .item > .text {
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--vp-c-text-2);
+}
+
+/* ─── Tablas ───────────────────────────────────────────────────────────── */
+.vp-doc table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.vp-doc table th {
+  background-color: var(--vp-c-brand-3);
+  font-weight: 600;
+}
+
+/* ─── Badges de tip/warning/info ───────────────────────────────────────── */
+.vp-doc .tip {
+  --vp-custom-block-tip-border: var(--vp-c-brand-1);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
+}
+
+/* ─── Código inline ────────────────────────────────────────────────────── */
+.vp-doc code {
+  font-size: 13px;
+  background-color: var(--vp-c-brand-3);
+  color: var(--vp-c-brand-2);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+.dark .vp-doc code {
+  background-color: var(--vp-c-brand-3);
+  color: var(--vp-c-brand-1);
+}
+
+/* ─── Botón de búsqueda ────────────────────────────────────────────────── */
+.VPNavBarSearch .DocSearch-Button {
+  border-radius: 8px;
+}
+
+/* ─── Footer ───────────────────────────────────────────────────────────── */
+.VPFooter {
+  border-top: 1px solid var(--vp-c-divider);
+}

@@ -1,0 +1,13 @@
+{
+  "name": "mitienda-docs",
+  "version": "1.0.0",
+  "description": "Manual de usuario — Panel Administrador MiTienda.pe",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}
