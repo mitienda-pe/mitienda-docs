@@ -90,6 +90,7 @@ export default defineConfig({
           { text: 'Combos', link: '/06-marketing/04-combos' },
           { text: 'Barras de Anuncio', link: '/06-marketing/05-barras-anuncio' },
           { text: 'Códigos de Referido', link: '/06-marketing/06-referidos' },
+          { text: 'Permalinks de Carrito', link: '/06-marketing/07-permalinks' },
         ]
       },
       {
