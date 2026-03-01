@@ -8,7 +8,7 @@ Aquí puedes ver y gestionar todos los compradores que han creado una cuenta o r
 
 ## Ver listado de clientes
 
-El listado muestra todos tus clientes con opciones de búsqueda y filtros. Puedes buscar por nombre, email, número de documento o teléfono.
+El listado muestra todos tus clientes con opciones de búsqueda y filtros. Puedes buscar por nombre, email o documento.
 
 ## Ficha del cliente
 
@@ -25,12 +25,15 @@ Puedes registrar un cliente sin que él haya comprado, útil para ventas por tel
 
 | Campo | Descripción |
 |---|---|
-| Nombre y Apellido | Nombre completo del cliente |
-| Tipo de documento | DNI, RUC, Carnet de Extranjería o Pasaporte |
+| Nombres | Nombre(s) del cliente |
+| Apellidos | Apellido(s) del cliente |
+| Tipo de documento | DNI o RUC |
 | Número de documento | Número según el tipo seleccionado |
 | Email | Correo electrónico |
 | Teléfono | Número de contacto |
+| Fecha de Nacimiento | Fecha de nacimiento del cliente (opcional) |
 | Razón social | Solo para clientes con RUC (empresas) |
+| Nombre de Contacto | Persona de contacto de la empresa (opcional, visible al seleccionar RUC) |
 | Direcciones | Puede tener múltiples, con ubigeo completo |
 
 ## Búsqueda por DNI o RUC (validación automática)

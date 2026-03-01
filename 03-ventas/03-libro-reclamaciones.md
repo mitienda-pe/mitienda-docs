@@ -8,10 +8,14 @@ El Libro de Reclamaciones digital cumple con la **Ley 29571 del Código de Prote
 
 ## Listado de reclamos
 
-Muestra todos los reclamos recibidos con estadísticas en la parte superior:
-- Total de reclamos
-- Pendientes de respuesta
-- Resueltos
+Muestra todos los reclamos recibidos con contadores estadísticos en la parte superior:
+
+- **Total** — cantidad total de reclamos recibidos
+- **Pendientes** — reclamos que aún no han sido atendidos
+- **Atendidos** — reclamos que ya fueron respondidos
+- **No vistos** — reclamos que aún no han sido leídos
+
+Puedes filtrar el listado por **Estado** y por **Tipo** (reclamo o queja) usando los filtros de la barra de búsqueda.
 
 ## Detalle de un reclamo
 
@@ -38,7 +42,7 @@ Cada reclamo incluye:
 3. Escribe tu respuesta en el campo de texto
 4. Guarda la respuesta
 
-La respuesta queda registrada y el reclamo pasa a estado **Resuelto**.
+La respuesta queda registrada y el reclamo pasa a estado **Atendido**.
 
 ## Descargar PDF del reclamo
 

@@ -4,7 +4,7 @@
 
 ## ¿Qué son las Promociones?
 
-Las promociones te permiten ofrecer descuentos, bonificaciones y beneficios especiales a tus compradores. MiTienda tiene dos motores de promociones: **Promociones** (versión estándar) y **Promociones Avanzadas** (motor con reglas complejas).
+Las promociones te permiten ofrecer descuentos, bonificaciones y beneficios especiales a tus compradores. MiTienda tiene dos motores de promociones: **Promociones** (versión estándar) y **Promociones v2** (motor con reglas complejas).
 
 ---
 
@@ -19,7 +19,7 @@ Ideal para descuentos simples y bonificaciones directas.
 | Campo | Descripción |
 |---|---|
 | Nombre | Nombre interno de la promoción |
-| Tipo | Porcentaje, monto fijo, precio especial o bonificación |
+| Tipo | Cupón por producto, Oferta 3 x 2, Oferta 2 x 1, Precio rebajado o Bonificaciones |
 | Valor | El porcentaje o monto del descuento |
 | Fecha inicio / fin | Periodo de vigencia (opcional) |
 | Productos vinculados | A qué productos aplica |
@@ -29,10 +29,11 @@ Ideal para descuentos simples y bonificaciones directas.
 
 | Tipo | Ejemplo |
 |---|---|
-| **Porcentaje** | 20% de descuento en el producto |
-| **Monto fijo** | S/ 10 de descuento en el producto |
-| **Precio especial** | El producto tiene un precio fijo promocional |
-| **Bonificación** | Lleva 3, paga 2 (lleva X, recibe Y gratis) |
+| **Cupón por producto** | Descuento aplicado a un producto específico mediante cupón |
+| **Oferta 3 x 2** | Lleva 3 productos y paga solo 2 |
+| **Oferta 2 x 1** | Lleva 2 productos y paga solo 1 |
+| **Precio rebajado** | El producto tiene un precio fijo promocional |
+| **Bonificaciones** | Lleva X, recibe Y gratis |
 
 ### Bonificaciones (Lleva X paga Y)
 
@@ -43,9 +44,9 @@ Para configurar una bonificación:
 
 ---
 
-## Promociones Avanzadas
+## Promociones v2
 
-**Ruta:** Marketing → Promociones Avanzadas
+**Ruta:** Marketing → Promociones v2
 
 Motor de reglas flexible para crear promociones con condiciones complejas. Ideal para campañas de temporada, descuentos por volumen, envío gratis, y más.
 
@@ -116,4 +117,4 @@ Desde **Reportes → Rendimiento de Promociones** puedes ver los usos y el descu
 Depende del tipo de activación. Las promociones automáticas se aplican sin que el comprador haga nada. Las de cupón requieren que el comprador ingrese el código en el checkout.
 
 **¿Puedo crear una promo de envío gratis para compras mayores a S/ 150?**
-Sí. En Promociones Avanzadas: Activación = Automática, Condición = Monto mínimo del carrito (S/ 150), Efecto = Envío gratis.
+Sí. En Promociones v2: Activación = Automática, Condición = Monto mínimo del carrito (S/ 150), Efecto = Envío gratis.

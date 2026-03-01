@@ -1,6 +1,6 @@
-# Envíos y Couriers
+# Reparto
 
-**Ruta:** Panel Administrador → Envíos
+**Ruta:** Panel Administrador → Reparto
 
 ## ¿Qué puedes configurar aquí?
 
@@ -12,23 +12,36 @@ Todo lo relacionado al despacho de pedidos: si ofreces envío a domicilio, recoj
 |---|---|
 | Envío a domicilio | Activar o desactivar el despacho a domicilio |
 | Recojo en tienda | Activar o desactivar la opción de pickup |
-| Umbral de envío gratis | Monto mínimo de compra para ofrecer envío gratis (ej: S/ 100) |
-| Monto mínimo de pedido | Monto mínimo para aceptar un pedido |
-| Monto máximo de pedido | Monto máximo permitido por pedido |
 
-## Zonas de Envío
+## Zonas de Reparto
 
 Las zonas definen a qué distritos puedes enviar y cuánto cobras en cada uno.
 
+**Ruta:** Reparto → Zonas de Reparto
+
 **Cómo crear una zona:**
-1. Ve a **Envíos → Zonas → Nueva Zona**
-2. Ponle un nombre (ej: "Lima Metropolitana")
-3. Selecciona los distritos que cubre (basado en ubigeo peruano)
-4. Define la tarifa fija para esa zona
+
+1. Ponle un nombre (ej: "Lima Metropolitana")
+2. Selecciona los distritos que cubre (basado en ubigeo peruano)
+3. Define la tarifa fija para esa zona
 
 Puedes crear múltiples zonas con tarifas diferentes. Por ejemplo: Lima Centro S/ 8, Lima Periférica S/ 12, Provincia S/ 20.
 
-## Proveedores Courier
+## Tarifas de Envío
+
+**Ruta:** Reparto → Tarifas de Envío
+
+Configura los costos de envío por nivel geográfico para cada país habilitado (Perú, Ecuador, Colombia).
+
+Para cada tarifa puedes definir:
+
+- **Nivel geográfico:** departamento, provincia o distrito
+- **Precio:** costo del envío para esa zona
+- **Tiempo de entrega:** estimado en días hábiles
+
+## Proveedores
+
+**Ruta:** Reparto → Proveedores
 
 Integra tu tienda con couriers para calcular tarifas y crear órdenes de envío automáticamente.
 
@@ -46,7 +59,7 @@ Integra tu tienda con couriers para calcular tarifas y crear órdenes de envío 
 
 ### Configurar un courier
 
-1. Ve a **Envíos → Couriers**
+1. Ve a **Reparto → Proveedores**
 2. Selecciona el courier que quieres activar
 3. Ingresa las credenciales que te proporciona el courier (API key, tokens, etc.)
 4. Selecciona el modo (sandbox para pruebas, producción para operación real)

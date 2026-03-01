@@ -71,20 +71,20 @@ No. Para emitir comprobantes electrónicos válidos ante SUNAT necesitas RUC act
 ## Envíos
 
 **¿Cómo sé en qué distritos puedo entregar?**
-Desde **Envíos → Zonas** puedes ver los distritos habilitados en cada zona de envío.
+Desde **Reparto → Zonas de Reparto** puedes ver los distritos habilitados en cada zona de envío.
 
 **¿Puedo ofrecer envío gratis?**
-Sí. Puedes configurar un umbral de envío gratis (monto mínimo de compra) desde **Envíos → Configuración General**. También puedes crear una zona con tarifa S/ 0.
+Sí. Puedes crear una zona de envío con tarifa S/ 0 para los distritos que quieras, o configurar una promoción de envío gratis desde **Marketing → Promociones v2**.
 
 **¿Cómo creo una orden de envío con un courier?**
-Desde el detalle del pedido, con el courier configurado, aparece el botón para crear la orden de envío directamente. Ver: [Envíos y Couriers](10-envios.md).
+Desde el detalle del pedido, con el courier configurado, aparece el botón para crear la orden de envío directamente. Ver: [Reparto](10-envios.md).
 
 ---
 
 ## Marketing y Promociones
 
 **¿Puedo crear un cupón de descuento?**
-Sí. Desde **Marketing → Promociones Avanzadas**, crea una promoción con Activación = Cupón. Ver: [Promociones](06-marketing/01-promociones.md).
+Sí. Desde **Marketing → Promociones v2**, crea una promoción con Activación = Cupón. Ver: [Promociones](06-marketing/01-promociones.md).
 
 **¿Los descuentos se aplican automáticamente?**
 Depende del tipo de activación. Las promociones automáticas sí. Las de cupón requieren que el comprador ingrese el código.

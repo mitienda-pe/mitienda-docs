@@ -121,7 +121,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Formas de Pago', link: '/09-formas-pago' },
-          { text: 'Envíos y Couriers', link: '/10-envios' },
+          { text: 'Reparto', link: '/10-envios' },
         ]
       },
       {

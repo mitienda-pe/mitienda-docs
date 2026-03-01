@@ -8,7 +8,18 @@ Muestra los carritos de compra que los visitantes llenaron pero no completaron. 
 
 ## Listado de carritos abandonados
 
+**Filtros disponibles:**
+
+- **Tipo de cliente** — filtra por tipo de comprador
+- **Estado Carrito** — filtra por estado del carrito
+- **Canal de recuperación** — filtra por el canal usado para contactar al comprador
+- **Fecha** — filtra por rango de fechas
+
+Puedes **Exportar** el listado completo usando el botón en la parte superior derecha.
+
 Por cada carrito verás:
+
+- Cliente (nombre y etiqueta "Invitado" si no está registrado)
 - Email del comprador (si se identificó)
 - Productos que dejó en el carrito (nombre, cantidad y precio)
 - Monto total del carrito

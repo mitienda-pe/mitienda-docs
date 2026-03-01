@@ -11,7 +11,7 @@ El módulo de Reportes te permite analizar el rendimiento de tu tienda con datos
 ### Reporte de Pedidos
 **Ruta:** Reportes → Pedidos
 
-Analiza tus ventas por periodo con filtros por estado de pago, método de pago y pasarela. Ideal para conciliaciones y análisis de ingresos.
+Analiza tus ventas por periodo con filtros por estado de pago y pasarela de pago. Ideal para conciliaciones y análisis de ingresos.
 
 ### Ventas por Producto
 **Ruta:** Reportes → Ventas por Producto

@@ -14,6 +14,10 @@ Muestra todos tus productos con opciones de búsqueda y filtros. Desde aquí pue
 
 Ve a **Catálogo → Productos → Nuevo producto**.
 
+::: tip Formulario simplificado
+El formulario de **Nuevo Producto** es simplificado y solo incluye los campos básicos (nombre, SKU, precio, stock y categoría). Los campos avanzados como imágenes, videos, documentos adjuntos, peso, dimensiones, SEO y variantes están disponibles una vez que el producto es creado, en la vista de edición completa.
+:::
+
 ### Información básica
 
 | Campo | Descripción |
@@ -24,11 +28,11 @@ Ve a **Catálogo → Productos → Nuevo producto**.
 | Descripción | Descripción larga con editor de texto enriquecido |
 | Descripción corta | Texto breve (máximo 300 caracteres). Puede generarse con IA |
 
-### Precio e IGV
+### Precios e Impuestos
 
 | Campo | Descripción |
 |---|---|
-| Precio de venta | Precio con IGV incluido |
+| Precio con IGV (S/) | Precio de venta con IGV incluido |
 | Precio sin IGV | Se calcula automáticamente o puedes ingresarlo manual |
 | Afectación IGV | Gravado (18%), Exonerado o Inafecto |
 
@@ -60,7 +64,7 @@ Necesarios para el cálculo de envío por peso con couriers.
 Asigna el producto a:
 - Categorías (puede estar en múltiples)
 - Marca
-- Gama/Línea
+- Gamma (sub-marca)
 - Etiquetas
 
 ### SEO del producto

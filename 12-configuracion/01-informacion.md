@@ -10,12 +10,12 @@ Los datos básicos de tu tienda que aparecen en el storefront, emails y comproba
 
 | Campo | Descripción |
 |---|---|
-| Nombre de la tienda | Nombre que verán tus compradores |
+| Nombre Comercial | Nombre que verán tus compradores |
 | Descripción | Breve presentación de tu tienda |
-| Slogan | Frase corta de tu marca |
 | Rubro / Industria | Categoría de tu negocio |
 | Email de la tienda | Email de contacto para compradores |
-| Teléfono | Número de contacto |
+| Teléfono Fijo | Número de teléfono fijo de contacto |
+| Celular | Número de celular de contacto |
 | WhatsApp | Número para el botón de WhatsApp (si aplica) |
 | Redes sociales | Facebook, Instagram, YouTube, TikTok, LinkedIn |
 

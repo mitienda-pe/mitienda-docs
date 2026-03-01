@@ -11,15 +11,11 @@ Aquí gestionas todas las órdenes de compra que recibe tu tienda, desde cualqui
 Muestra todos los pedidos con opciones de filtrado y búsqueda.
 
 **Filtros disponibles:**
+
 - Estado de pago (pendiente, pagado, rechazado, reembolsado)
-- Estado de envío (pendiente, preparando, enviado, entregado)
-- Rango de fechas
-- Método de pago
-- Origen (web, POS, API)
+- Fecha desde / Fecha hasta
 
 **Búsqueda:** por número de referencia, email del cliente o número de documento.
-
-**Acción masiva:** puedes seleccionar varios pedidos y cambiar su estado al mismo tiempo.
 
 ## Detalle del pedido
 
@@ -44,11 +40,19 @@ Al ingresar a un pedido verás toda la información organizada en tres columnas:
 
 ### Cambiar estados
 
-Puedes actualizar el estado de pago y el estado de envío de forma independiente. Cada cambio queda registrado en el **timeline del pedido**.
+Puedes actualizar el estado de pago y el estado de envío de forma independiente. Cada cambio queda registrado en el **Historial** del pedido.
 
-### Reenviar comprobante
+### Enviar Email
 
-Desde el detalle puedes reenviar el email de confirmación con el comprobante al cliente.
+Desde el detalle puedes enviar el email de confirmación con el comprobante al cliente usando el botón **Enviar Email**.
+
+### Mapa de Ubicación
+
+Mapa interactivo que muestra las coordenadas GPS de la dirección de entrega, con enlace directo a Google Maps.
+
+### Sincronización ERP
+
+Si tu tienda tiene integración con NetSuite, verás una sección que muestra el estado de la sincronización automática del pedido con el ERP (pendiente, sincronizado o con error).
 
 ## Descargar documentos del pedido
 
@@ -62,14 +66,14 @@ Cada pedido puede exportarse en 5 formatos:
 | **Picking List** | Lista de productos para preparar el pedido, con checkboxes y área de firma | `picking-{ref}.pdf` |
 | **Etiqueta de Envío** | Etiqueta 4x6" con remitente, destinatario, dirección, ubigeo, GPS y código de barras | `etiqueta-envio-{ref}.pdf` |
 
-## Calificación de Riesgo de Fraude
+## Calificación de riesgo del cliente
 
 Cada pedido tiene un **score de riesgo** de 0 a 100, calculado automáticamente al momento de la compra.
 
 | Color | Rango | Significado |
 |---|---|---|
 | 🟢 Verde | 0 – 39 | Riesgo bajo |
-| 🟡 Amarillo | 40 – 69 | Riesgo moderado |
+| 🟡 Amarillo | 40 – 69 | Riesgo medio |
 | 🔴 Rojo | 70 – 100 | Riesgo alto |
 
 El score analiza 9 métricas:
@@ -83,9 +87,9 @@ El score analiza 9 métricas:
 - Monto vs promedio de la tienda
 - Huella digital del dispositivo
 
-El análisis es **cross-tienda**: compara patrones entre todas las tiendas de la plataforma para detectar fraudes conocidos. Puedes actualizar el score manualmente con el botón **Refrescar análisis**.
+El análisis es **cross-tienda**: compara patrones entre todas las tiendas de la plataforma para detectar fraudes conocidos. Puedes actualizar el score manualmente con el botón **Actualizar análisis**.
 
-## Timeline del pedido
+## Historial
 
 Registro cronológico de todos los eventos del pedido: creación, cambios de estado, emisión de comprobante, emails enviados, etc.
 

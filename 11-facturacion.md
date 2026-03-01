@@ -49,7 +49,7 @@ El comprobante queda asociado al pedido y puedes verlo en el detalle del pedido 
 
 ## Emisión manual
 
-Si necesitas emitir un comprobante sin una orden de compra en el sistema, ve a **Facturación → Emisión Manual** y completa los datos.
+Si necesitas emitir un comprobante manualmente, puedes hacerlo desde el detalle de un pedido pagado. Ve al pedido correspondiente en **Ventas → Pedidos** y utiliza la opción de emisión de comprobante.
 
 ## Historial de documentos
 

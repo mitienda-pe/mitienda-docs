@@ -1,6 +1,6 @@
-# Promociones Avanzadas
+# Promociones v2
 
-El motor de Promociones Avanzadas está documentado en detalle dentro de la sección principal de [Promociones](01-promociones.md#promociones-avanzadas).
+El motor de Promociones v2 está documentado en detalle dentro de la sección principal de [Promociones](01-promociones.md#promociones-v2).
 
 Incluye:
 - Activaciones (automática, cupón, referido, permalink, evento)
