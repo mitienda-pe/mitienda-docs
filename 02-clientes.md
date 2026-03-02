@@ -53,4 +53,4 @@ No se recomienda eliminar clientes que tengan pedidos asociados, ya que afectar�
 Sí, los compradores pueden crear su cuenta desde el storefront de tu tienda. También puedes activar la compra sin registro desde **Tu Tienda → Configuración General**.
 
 **¿Cómo sincronizo los clientes con mi herramienta de email marketing?**
-Desde [Integraciones](/13-integraciones) puedes conectar Mailchimp, Klaviyo, Brevo y otras plataformas para sincronizar clientes automáticamente.
+Desde [Integraciones](/13-integraciones/01-overview) puedes conectar Mailchimp, Klaviyo, Brevo y otras plataformas para sincronizar clientes automáticamente.

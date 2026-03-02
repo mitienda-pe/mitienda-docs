@@ -110,7 +110,7 @@ Desde **Tu Tienda → Notificaciones** ingresa tu ID de GA4 o GTM. Ver: [Notific
 ## Integraciones
 
 **¿Cómo sincronizo mis clientes con Mailchimp?**
-Desde **Integraciones → Proveedores**, selecciona Mailchimp, ingresa tu API Key y List ID, y activa la integración. Ver: [Integraciones](13-integraciones.md).
+Desde **Integraciones → Proveedores**, selecciona Mailchimp, ingresa tu API Key y List ID, y activa la integración. Ver: [Integraciones](/13-integraciones/04-email-marketing).
 
 **¿Puedo conectar MiTienda con herramientas que no están en la lista?**
 Sí. Usa los **Webhooks personalizados** para enviar eventos a cualquier URL, o la **API** para hacer consultas desde sistemas externos.

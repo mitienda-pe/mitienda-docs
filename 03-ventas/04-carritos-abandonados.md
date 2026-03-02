@@ -34,7 +34,7 @@ Al ingresar al detalle verás exactamente qué productos dejó el comprador y po
 
 Si tienes una integración de email marketing activa (Mailchimp, Klaviyo, Brevo, etc.), puedes enviar un correo al comprador recordándole que tiene productos en su carrito.
 
-Esta acción se puede automatizar desde [Integraciones](../13-integraciones.md) usando el evento `cart.abandoned`.
+Esta acción se puede automatizar desde [Integraciones](/13-integraciones/01-overview) usando el evento `cart.abandoned`.
 
 ## Preguntas frecuentes
 
@@ -48,4 +48,4 @@ Los carritos se mantienen en el listado por un periodo determinado. Carritos muy
 Sí, el campo "Estado de recuperación" indica si el comprador regresó y completó su pedido después de ser contactado.
 
 **¿Cómo automatizo los emails de recuperación?**
-Configura la integración con tu plataforma de email marketing desde [Integraciones](../13-integraciones.md) y activa el evento `cart.abandoned`.
+Configura la integración con tu plataforma de email marketing desde [Integraciones](/13-integraciones/04-email-marketing) y activa el evento `cart.abandoned`.

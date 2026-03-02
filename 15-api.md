@@ -21,7 +21,7 @@ Desde esta sección puedes configurar webhooks básicos por tipo de evento. Hay 
 - **Registro de Cliente**
 - **Actualización de Producto**
 
-Para webhooks más avanzados con firma HMAC y registro de entregas, usa [Integraciones → Webhooks](13-integraciones.md).
+Para webhooks más avanzados con firma HMAC y registro de entregas, usa [Integraciones → Webhooks](/13-integraciones/05-webhooks).
 
 ## Documentación de la API
 

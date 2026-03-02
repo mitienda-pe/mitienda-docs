@@ -48,7 +48,7 @@ Mide la efectividad de tus campañas: cuántos cupones se usaron, cuántos descu
 La vista previa muestra hasta 100 registros. Para el total completo, exporta el reporte.
 
 **¿Puedo programar el envío automático de reportes?**
-Por ahora los reportes se generan manualmente. Para automatizaciones, revisa las opciones de [Integraciones](/13-integraciones).
+Por ahora los reportes se generan manualmente. Para automatizaciones, revisa las opciones de [Integraciones](/13-integraciones/01-overview).
 
 **¿El reporte de pedidos incluye pedidos cancelados?**
 Sí, puedes filtrar por estado de pago para ver solo los pagados, solo los rechazados, etc.
