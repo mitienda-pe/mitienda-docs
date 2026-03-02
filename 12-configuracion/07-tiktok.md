@@ -1,6 +1,10 @@
 # TikTok
 
-**Ruta:** Panel Administrador → Tu Tienda → TikTok
+**Ruta:** Panel Administrador → Integraciones → Proveedores → TikTok Pixel
+
+::: info Acceso desde Integraciones
+Esta configuración se accede desde el módulo de **Integraciones → Proveedores**. Haz clic en la tarjeta de TikTok para llegar aquí.
+:::
 
 ## ¿Para qué sirve?
 

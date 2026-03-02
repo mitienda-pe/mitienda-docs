@@ -141,18 +141,23 @@ export default defineConfig({
           { text: 'Configuración General', link: '/12-configuracion/03-config-general' },
           { text: 'Dominio Propio', link: '/12-configuracion/04-dominio' },
           { text: 'SEO', link: '/12-configuracion/05-seo' },
-          { text: 'Facebook / Meta', link: '/12-configuracion/06-facebook-meta' },
-          { text: 'TikTok', link: '/12-configuracion/07-tiktok' },
           { text: 'Usuarios del Equipo', link: '/12-configuracion/08-usuarios-equipo' },
           { text: 'Notificaciones', link: '/12-configuracion/09-notificaciones' },
           { text: 'Plan y Suscripción', link: '/12-configuracion/10-suscripcion' },
         ]
       },
       {
-        text: 'Integraciones avanzadas',
+        text: 'Integraciones',
         collapsed: true,
         items: [
-          { text: 'Integraciones', link: '/13-integraciones' },
+          { text: 'Visión general', link: '/13-integraciones/01-overview' },
+          { text: 'Google', link: '/13-integraciones/02-google' },
+          { text: 'Widgets y Plugins', link: '/13-integraciones/03-widgets-plugins' },
+          { text: 'Email Marketing', link: '/13-integraciones/04-email-marketing' },
+          { text: 'Facebook / Meta', link: '/12-configuracion/06-facebook-meta' },
+          { text: 'TikTok', link: '/12-configuracion/07-tiktok' },
+          { text: 'Webhooks', link: '/13-integraciones/05-webhooks' },
+          { text: 'Monitor y Cola', link: '/13-integraciones/06-monitor' },
           { text: 'NetSuite', link: '/14-netsuite' },
           { text: 'API', link: '/15-api' },
         ]

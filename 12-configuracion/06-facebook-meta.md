@@ -1,6 +1,10 @@
 # Facebook / Meta
 
-**Ruta:** Panel Administrador → Tu Tienda → Facebook
+**Ruta:** Panel Administrador → Integraciones → Proveedores → Facebook CAPI
+
+::: info Acceso desde Integraciones
+Esta configuración se accede desde el módulo de **Integraciones → Proveedores**. Haz clic en la tarjeta de Facebook para llegar aquí.
+:::
 
 ## ¿Para qué sirve esta configuración?
 
