@@ -16,8 +16,9 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'MiTienda.pe Ayuda' }],
     ['meta', { property: 'og:image', content: 'https://ayuda.mitienda.pe/og-image.png' }],
-    // Google Analytics — reemplaza con tu GA4 ID
-    // ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' }],
+    // Google Analytics
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-HPPTD3X41M' }],
+    ['script', {}, `window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-HPPTD3X41M');`],
   ],
 
   // ─── Sitemap automático ─────────────────────────────────────────────────
