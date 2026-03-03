@@ -43,7 +43,7 @@ No. El POS requiere conexión a internet para consultar el catálogo y registrar
 Sí. Cada venta desde el POS descuenta el stock del producto en tiempo real.
 
 **¿Cómo accedo al POS?**
-Consulta con el equipo de MiTienda la URL de acceso al POS de tu tienda. Es una aplicación separada del Panel Administrador.
+Ingresa a [pos.mitienda.pe](https://pos.mitienda.pe/) con tus credenciales. Es una aplicación separada del Panel Administrador.
 
 **¿Qué impresoras son compatibles?**
 Impresoras térmicas de 80mm con soporte para comandos ESC/POS (estándar de la industria).

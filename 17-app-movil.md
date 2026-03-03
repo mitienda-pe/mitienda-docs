@@ -2,12 +2,10 @@
 
 La App Móvil de MiTienda está disponible para **iOS y Android**. Está diseñada para que puedas gestionar tu tienda desde tu celular.
 
-## Disponible en
+## Descargar
 
-- App Store (iPhone y iPad)
-- Google Play Store (Android)
-
-Busca "MiTienda" en tu tienda de aplicaciones.
+- [App Store (iPhone y iPad)](https://apps.apple.com/pe/app/mitienda-vendedor/id6752581287)
+- [Google Play Store (Android)](https://play.google.com/store/apps/details?id=pe.mitienda.seller)
 
 ## Funcionalidades disponibles
 

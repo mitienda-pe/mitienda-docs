@@ -175,6 +175,7 @@ export default defineConfig({
         text: 'Ayuda',
         items: [
           { text: 'Preguntas Frecuentes', link: '/FAQ' },
+          { text: 'Contacto y Soporte', link: '/18-contacto' },
         ]
       }
     ],
