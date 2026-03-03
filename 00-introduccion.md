@@ -6,7 +6,7 @@ MiTienda.pe es una plataforma para crear y gestionar tu tienda online. Desde el 
 
 ## Acceso al Panel Administrador
 
-1. Ingresa a `tu-tienda.mitienda.pe/admin` (o tu dominio personalizado `/admin`)
+1. Ingresa a [admin.mitienda.pe](https://admin.mitienda.pe)
 2. Escribe tu email y contraseña
 3. Si tienes acceso a múltiples tiendas, selecciona la tienda con la que deseas trabajar
 
