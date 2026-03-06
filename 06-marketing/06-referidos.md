@@ -1,3 +1,8 @@
+---
+title: Códigos de Referido
+description: Rastrea ventas de vendedores, influencers o socios comerciales con códigos de referido.
+---
+
 # Códigos de Referido
 
 **Ruta:** Panel Administrador → Marketing → Códigos de Referido

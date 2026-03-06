@@ -1,3 +1,8 @@
+---
+title: Introducción
+description: Guía de inicio del Panel Administrador de MiTienda.pe. Aprende a acceder y navegar el panel para gestionar tu tienda online.
+---
+
 # Introducción — Panel Administrador MiTienda.pe
 
 ## ¿Qué es MiTienda.pe?

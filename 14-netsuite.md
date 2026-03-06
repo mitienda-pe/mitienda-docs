@@ -1,3 +1,8 @@
+---
+title: NetSuite
+description: Integra MiTienda con NetSuite para sincronizar pedidos, stock, precios y promociones automáticamente.
+---
+
 # NetSuite
 
 **Ruta:** Panel Administrador → NetSuite

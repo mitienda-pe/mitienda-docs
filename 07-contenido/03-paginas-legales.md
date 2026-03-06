@@ -1,3 +1,8 @@
+---
+title: Páginas Legales
+description: Gestiona las páginas legales obligatorias de tu tienda como términos, privacidad y devoluciones.
+---
+
 # Páginas Legales
 
 **Ruta:** Panel Administrador → Contenido → Páginas Legales

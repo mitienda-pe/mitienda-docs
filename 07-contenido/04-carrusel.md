@@ -1,3 +1,8 @@
+---
+title: Carrusel de Portada
+description: Configura el slider de imágenes de la página principal de tu tienda con hasta 6 slides.
+---
+
 # Carrusel de Portada
 
 **Ruta:** Panel Administrador → Contenido → Carrusel

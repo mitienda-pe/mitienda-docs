@@ -1,3 +1,8 @@
+---
+title: Plan y Suscripción
+description: Consulta tu plan actual y opciones para cambiar de suscripción en MiTienda.pe.
+---
+
 # Plan y Suscripción
 
 **Ruta:** Panel Administrador → Tu Tienda → Plan

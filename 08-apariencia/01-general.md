@@ -1,3 +1,8 @@
+---
+title: Configuración de la Tienda
+description: Configura la identidad visual de tu tienda online, incluyendo logo, favicon y opciones generales de apariencia.
+---
+
 # Configuración de la Tienda
 
 **Ruta:** Panel Administrador → Apariencia → Configuración

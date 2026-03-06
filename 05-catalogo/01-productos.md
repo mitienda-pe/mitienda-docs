@@ -1,3 +1,8 @@
+---
+title: Productos
+description: Crea y gestiona tu catálogo de productos con variantes, precios, stock, imágenes y más en MiTienda.pe.
+---
+
 # Productos
 
 **Ruta:** Panel Administrador → Catálogo → Productos

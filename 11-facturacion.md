@@ -1,3 +1,8 @@
+---
+title: Facturación Electrónica
+description: Configura la emisión de boletas y facturas electrónicas con Nubefact integrado a MiTienda.pe.
+---
+
 # Facturación Electrónica
 
 **Ruta:** Panel Administrador → Facturación

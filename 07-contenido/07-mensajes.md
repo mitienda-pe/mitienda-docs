@@ -1,3 +1,8 @@
+---
+title: Mensajes
+description: Personaliza los textos que aparecen en momentos clave del proceso de compra de tu tienda.
+---
+
 # Mensajes
 
 **Ruta:** Panel Administrador → Contenido → Mensajes

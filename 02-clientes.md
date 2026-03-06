@@ -1,3 +1,8 @@
+---
+title: Clientes
+description: Gestiona los compradores de tu tienda. Consulta datos, historial de pedidos y actividad de tus clientes.
+---
+
 # Clientes
 
 **Ruta:** Panel Administrador → Clientes

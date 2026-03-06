@@ -1,3 +1,8 @@
+---
+title: Preguntas Frecuentes
+description: Respuestas a las preguntas más comunes sobre el uso del Panel Administrador de MiTienda.pe.
+---
+
 # Preguntas Frecuentes
 
 Respuestas a las preguntas más comunes sobre el uso del Panel Administrador de MiTienda.pe.

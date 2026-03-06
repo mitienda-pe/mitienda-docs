@@ -1,3 +1,8 @@
+---
+title: Promociones v2
+description: Motor avanzado de promociones con reglas complejas, activaciones, condiciones, efectos y restricciones.
+---
+
 # Promociones v2
 
 El motor de Promociones v2 está documentado en detalle dentro de la sección principal de [Promociones](01-promociones.md#promociones-v2).

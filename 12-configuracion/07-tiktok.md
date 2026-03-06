@@ -1,3 +1,8 @@
+---
+title: TikTok
+description: Configura TikTok Pixel para rastrear conversiones de tus campañas publicitarias en TikTok.
+---
+
 # TikTok
 
 **Ruta:** Panel Administrador → Integraciones → Proveedores → TikTok Pixel

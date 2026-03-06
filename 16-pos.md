@@ -1,3 +1,8 @@
+---
+title: POS — Punto de Venta
+description: Usa el Punto de Venta de MiTienda para ventas presenciales en mostrador desde tablets o computadoras.
+---
+
 # POS — Punto de Venta
 
 El POS de MiTienda es una **aplicación independiente** (separada del Panel Administrador) diseñada para ventas presenciales en mostrador. Funciona en tablets o computadoras en tu local.

@@ -1,3 +1,8 @@
+---
+title: Webhooks
+description: Envía eventos de tu tienda a cualquier URL para integraciones personalizadas con sistemas externos.
+---
+
 # Webhooks
 
 **Ruta:** Panel Administrador → Integraciones → Webhooks

@@ -1,3 +1,8 @@
+---
+title: Componentes Reutilizables
+description: Crea bloques de contenido HTML reutilizables para insertar en páginas y posts del blog.
+---
+
 # Componentes Reutilizables
 
 **Ruta:** Panel Administrador → Contenido → Componentes

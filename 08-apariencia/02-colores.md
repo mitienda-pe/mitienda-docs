@@ -1,3 +1,8 @@
+---
+title: Colores
+description: Define los colores de cada sección de tu tienda para reflejar la identidad de tu marca.
+---
+
 # Colores
 
 **Ruta:** Panel Administrador → Apariencia → Colores

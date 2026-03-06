@@ -1,3 +1,8 @@
+---
+title: Menú de Navegación
+description: Construye el menú principal de tu tienda con hasta 3 niveles de jerarquía.
+---
+
 # Menú de Navegación
 
 **Ruta:** Panel Administrador → Apariencia → Menú

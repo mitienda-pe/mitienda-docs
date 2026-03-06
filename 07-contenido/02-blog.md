@@ -1,3 +1,8 @@
+---
+title: Blog
+description: Publica artículos y contenido de valor para tus compradores. Mejora tu SEO con el blog de tu tienda.
+---
+
 # Blog
 
 **Ruta:** Panel Administrador → Contenido → Blog

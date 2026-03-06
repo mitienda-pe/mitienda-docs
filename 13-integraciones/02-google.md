@@ -1,3 +1,8 @@
+---
+title: Google
+description: Configura Google Analytics, Tag Manager, Search Console y Merchant Center para tu tienda.
+---
+
 # Google
 
 **Ruta:** Panel Administrador → Integraciones → Proveedores → Google

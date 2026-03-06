@@ -1,3 +1,8 @@
+---
+title: Monitor y Cola de Trabajos
+description: Monitorea el estado de tus integraciones y la cola de trabajos en tiempo real.
+---
+
 # Monitor y Cola de Trabajos
 
 **Ruta:** Panel Administrador → Integraciones → Monitor

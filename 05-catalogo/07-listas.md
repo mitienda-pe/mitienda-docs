@@ -1,3 +1,8 @@
+---
+title: Listas de Productos
+description: Crea colecciones curadas como Novedades, Más vendidos u Ofertas para mostrar en tu página principal.
+---
+
 # Listas de Productos
 
 **Ruta:** Panel Administrador → Catálogo → Listas

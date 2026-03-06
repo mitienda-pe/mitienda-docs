@@ -1,3 +1,8 @@
+---
+title: Reparto y Envíos
+description: Configura envío a domicilio, recojo en tienda, tarifas por zona y couriers para tu tienda online.
+---
+
 # Reparto
 
 **Ruta:** Panel Administrador → Reparto

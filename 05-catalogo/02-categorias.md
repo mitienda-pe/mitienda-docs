@@ -1,3 +1,8 @@
+---
+title: Categorías
+description: Organiza tu catálogo en categorías y subcategorías para facilitar la navegación de tus compradores.
+---
+
 # Categorías
 
 **Ruta:** Panel Administrador → Catálogo → Categorías

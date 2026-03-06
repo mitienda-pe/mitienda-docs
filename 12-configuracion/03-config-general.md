@@ -1,3 +1,8 @@
+---
+title: Configuración General
+description: Ajusta moneda, monto mínimo de pedido y otras opciones generales de tu tienda en MiTienda.pe.
+---
+
 # Configuración General
 
 **Ruta:** Panel Administrador → Tu Tienda → Configuración

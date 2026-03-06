@@ -1,3 +1,8 @@
+---
+title: Páginas
+description: Crea páginas estáticas como Quiénes somos o Contacto con diferentes editores disponibles.
+---
+
 # Páginas
 
 **Ruta:** Panel Administrador → Contenido → Páginas

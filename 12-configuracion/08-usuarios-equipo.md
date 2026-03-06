@@ -1,3 +1,8 @@
+---
+title: Usuarios del Equipo
+description: Invita colaboradores al Panel Administrador de tu tienda con permisos limitados según su rol.
+---
+
 # Usuarios del Equipo
 
 **Ruta:** Panel Administrador → Tu Tienda → Usuarios

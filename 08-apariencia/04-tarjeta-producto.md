@@ -1,3 +1,8 @@
+---
+title: Viñeta de Producto
+description: Personaliza cómo se ven los productos en los listados del catálogo con diferentes estilos de viñeta.
+---
+
 # Viñeta de Producto
 
 **Ruta:** Panel Administrador → Apariencia → Viñeta de Producto

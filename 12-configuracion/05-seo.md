@@ -1,3 +1,8 @@
+---
+title: SEO
+description: Configura los metadatos y la imagen de tu tienda para mejorar tu posicionamiento en Google.
+---
+
 # SEO
 
 **Ruta:** Panel Administrador → Tu Tienda → SEO

@@ -1,3 +1,8 @@
+---
+title: Facebook / Meta
+description: Integra Facebook Pixel y Conversions API para rastrear conversiones de tus campañas en Meta.
+---
+
 # Facebook / Meta
 
 **Ruta:** Panel Administrador → Integraciones → Proveedores → Facebook CAPI

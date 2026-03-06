@@ -1,3 +1,8 @@
+---
+title: Email Marketing
+description: Integra tu tienda con plataformas de email marketing para automatizar campañas y segmentar clientes.
+---
+
 # Email Marketing
 
 **Ruta:** Panel Administrador → Integraciones → Proveedores

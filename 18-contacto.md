@@ -1,3 +1,8 @@
+---
+title: Contacto y Soporte
+description: Canales de contacto y soporte técnico de MiTienda.pe para resolver tus dudas.
+---
+
 # Contacto y Soporte
 
 Si necesitas ayuda adicional o tienes consultas que no están cubiertas en esta documentación, puedes contactarnos por los siguientes canales.

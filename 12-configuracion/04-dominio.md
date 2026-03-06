@@ -1,3 +1,8 @@
+---
+title: Dominio Propio
+description: Conecta tu propio dominio a tu tienda MiTienda.pe en lugar de usar el subdominio por defecto.
+---
+
 # Dominio Propio
 
 **Ruta:** Panel Administrador → Tu Tienda → Dominio

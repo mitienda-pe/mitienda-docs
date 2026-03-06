@@ -1,3 +1,8 @@
+---
+title: Etiquetas
+description: Asigna tags a tus productos para facilitar la búsqueda y agrupación flexible en tu catálogo.
+---
+
 # Etiquetas
 
 **Ruta:** Panel Administrador → Catálogo → Etiquetas

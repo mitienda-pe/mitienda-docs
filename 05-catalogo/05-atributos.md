@@ -1,3 +1,8 @@
+---
+title: Atributos y Variantes
+description: Define atributos como talla, color o material para generar variantes de tus productos.
+---
+
 # Atributos y Variantes
 
 **Ruta:** Panel Administrador → Catálogo → Atributos

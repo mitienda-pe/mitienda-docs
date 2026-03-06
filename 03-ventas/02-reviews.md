@@ -1,3 +1,8 @@
+---
+title: Opiniones y Reviews
+description: Modera las reseñas de productos que dejan tus compradores antes de publicarlas en tu tienda.
+---
+
 # Opiniones y Reviews
 
 **Ruta:** Panel Administrador → Ventas → Opiniones

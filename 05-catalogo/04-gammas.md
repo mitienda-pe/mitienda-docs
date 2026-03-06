@@ -1,3 +1,8 @@
+---
+title: Gammas
+description: Crea sub-marcas o líneas dentro de una marca para clasificar mejor tus productos.
+---
+
 # Gammas
 
 **Ruta:** Panel Administrador → Catálogo → Gammas

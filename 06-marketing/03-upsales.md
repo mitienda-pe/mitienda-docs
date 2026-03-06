@@ -1,3 +1,8 @@
+---
+title: Upsales
+description: Sugiere productos complementarios durante el checkout para aumentar el valor promedio de cada pedido.
+---
+
 # Upsales
 
 **Ruta:** Panel Administrador → Marketing → Upsales

@@ -1,3 +1,8 @@
+---
+title: Permalinks de Carrito
+description: Crea enlaces que agregan productos al carrito automáticamente, ideales para compartir en redes o WhatsApp.
+---
+
 # Permalinks de Carrito
 
 **Ruta:** Panel Administrador → Catálogo → Productos → *(detalle de un producto)*

@@ -1,3 +1,8 @@
+---
+title: Sucursales y Direcciones
+description: Gestiona tus puntos de recojo y direcciones de remitente para envíos de tu tienda.
+---
+
 # Sucursales y Direcciones
 
 **Ruta:** Panel Administrador → Tu Tienda → Sucursales

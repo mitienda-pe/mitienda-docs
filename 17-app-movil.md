@@ -1,3 +1,8 @@
+---
+title: App Móvil
+description: Gestiona tu tienda desde tu celular con la app de MiTienda disponible para iOS y Android.
+---
+
 # App Móvil
 
 La App Móvil de MiTienda está disponible para **iOS y Android**. Está diseñada para que puedas gestionar tu tienda desde tu celular.

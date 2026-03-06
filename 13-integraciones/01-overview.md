@@ -1,3 +1,8 @@
+---
+title: Integraciones
+description: Conecta tu tienda con herramientas de email marketing, publicidad, analytics, chat y automatización.
+---
+
 # Integraciones
 
 **Ruta:** Panel Administrador → Integraciones

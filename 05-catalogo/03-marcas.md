@@ -1,3 +1,8 @@
+---
+title: Marcas
+description: Clasifica tus productos por marca comercial y crea páginas de marca en tu tienda online.
+---
+
 # Marcas
 
 **Ruta:** Panel Administrador → Catálogo → Marcas

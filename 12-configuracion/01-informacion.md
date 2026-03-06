@@ -1,3 +1,8 @@
+---
+title: Información de la Tienda
+description: Configura los datos básicos de tu tienda que aparecen en el storefront, emails y comprobantes.
+---
+
 # Información de la Tienda
 
 **Ruta:** Panel Administrador → Tu Tienda → Información

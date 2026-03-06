@@ -1,3 +1,8 @@
+---
+title: Promociones
+description: Crea descuentos, cupones y promociones para tus compradores con el motor estándar o avanzado v2.
+---
+
 # Promociones
 
 **Ruta:** Panel Administrador → Marketing → Promociones

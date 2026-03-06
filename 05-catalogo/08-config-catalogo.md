@@ -1,3 +1,8 @@
+---
+title: Configuración del Catálogo
+description: Ajusta opciones del catálogo como productos por página, ordenamiento y configuración de visualización.
+---
+
 # Configuración del Catálogo
 
 **Ruta:** Panel Administrador → Catálogo → Configuración

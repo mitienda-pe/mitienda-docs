@@ -1,3 +1,8 @@
+---
+title: Pedidos
+description: Gestiona las órdenes de compra de tu tienda. Consulta estados, detalles, envíos y seguimiento de pedidos.
+---
+
 # Pedidos
 
 **Ruta:** Panel Administrador → Ventas → Pedidos

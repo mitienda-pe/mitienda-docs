@@ -1,3 +1,8 @@
+---
+title: Widgets y Plugins
+description: Activa herramientas de chat en vivo, analytics, notificaciones push y captura de leads en tu tienda.
+---
+
 # Widgets y Plugins
 
 **Ruta:** Panel Administrador → Integraciones → Proveedores

@@ -1,3 +1,8 @@
+---
+title: Dashboard
+description: Conoce las métricas y resumen de actividad de tu tienda en el panel principal de MiTienda.pe.
+---
+
 # Dashboard
 
 **Ruta:** Panel Administrador → Dashboard

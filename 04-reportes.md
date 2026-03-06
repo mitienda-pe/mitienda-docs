@@ -1,3 +1,8 @@
+---
+title: Reportes
+description: Analiza el rendimiento de tu tienda con reportes detallados y exportables a Excel o CSV.
+---
+
 # Reportes
 
 **Ruta:** Panel Administrador → Reportes

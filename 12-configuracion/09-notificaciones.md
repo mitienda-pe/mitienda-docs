@@ -1,3 +1,8 @@
+---
+title: Notificaciones
+description: Configura cómo y dónde recibes las alertas y notificaciones de tu tienda.
+---
+
 # Notificaciones
 
 **Ruta:** Panel Administrador → Notificaciones

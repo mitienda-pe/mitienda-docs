@@ -1,3 +1,8 @@
+---
+title: Libro de Reclamaciones
+description: Gestiona el Libro de Reclamaciones digital de tu tienda según la ley peruana de protección al consumidor.
+---
+
 # Libro de Reclamaciones
 
 **Ruta:** Panel Administrador → Ventas → Libro de Reclamaciones

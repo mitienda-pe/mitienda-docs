@@ -1,3 +1,8 @@
+---
+title: Combos / Bundles
+description: Agrupa productos en paquetes a precio especial para aumentar el ticket promedio de tu tienda.
+---
+
 # Combos / Bundles
 
 **Ruta:** Panel Administrador → Marketing → Combos

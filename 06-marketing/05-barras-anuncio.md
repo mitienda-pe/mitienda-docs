@@ -1,3 +1,8 @@
+---
+title: Barras de Anuncio
+description: Muestra banners en la parte superior de tu tienda para comunicar promociones y mensajes importantes.
+---
+
 # Barras de Anuncio
 
 **Ruta:** Panel Administrador → Marketing → Barras de Anuncio

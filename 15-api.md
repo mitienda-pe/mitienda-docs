@@ -1,3 +1,8 @@
+---
+title: API
+description: Genera credenciales de acceso para integrar tu tienda con sistemas externos mediante la API de MiTienda.
+---
+
 # API
 
 **Ruta:** Panel Administrador → API

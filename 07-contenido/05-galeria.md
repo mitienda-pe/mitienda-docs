@@ -1,3 +1,8 @@
+---
+title: Imágenes
+description: Sube y gestiona imágenes en el repositorio centralizado de tu tienda para usarlas en cualquier sección.
+---
+
 # Imágenes
 
 **Ruta:** Panel Administrador → Contenido → Imágenes

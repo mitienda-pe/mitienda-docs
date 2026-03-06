@@ -1,3 +1,8 @@
+---
+title: Tipografía
+description: Elige las fuentes para títulos y textos de tu tienda online en MiTienda.pe.
+---
+
 # Tipografía
 
 **Ruta:** Panel Administrador → Apariencia → Tipografía

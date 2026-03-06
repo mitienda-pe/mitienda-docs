@@ -1,3 +1,8 @@
+---
+title: Formas de Pago
+description: Configura los métodos de pago de tu tienda: tarjetas, transferencias, pagos contra entrega y más.
+---
+
 # Formas de Pago
 
 **Ruta:** Panel Administrador → Formas de Pago

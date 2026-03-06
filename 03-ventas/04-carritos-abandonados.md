@@ -1,3 +1,8 @@
+---
+title: Carritos Abandonados
+description: Recupera ventas contactando a compradores que llenaron su carrito pero no completaron la compra.
+---
+
 # Carritos Abandonados
 
 **Ruta:** Panel Administrador → Ventas → Carritos Abandonados
