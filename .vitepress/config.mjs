@@ -65,6 +65,7 @@ export default defineConfig({
           { text: 'Opiniones y Reviews', link: '/03-ventas/02-reviews' },
           { text: 'Libro de Reclamaciones', link: '/03-ventas/03-libro-reclamaciones' },
           { text: 'Carritos Abandonados', link: '/03-ventas/04-carritos-abandonados' },
+          { text: 'Panel de Despacho', link: '/03-ventas/05-despacho' },
           { text: 'Reportes', link: '/04-reportes' },
         ]
       },
