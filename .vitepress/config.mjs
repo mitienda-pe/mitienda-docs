@@ -29,6 +29,13 @@ export default defineConfig({
   // ─── Última actualización ───────────────────────────────────────────────
   lastUpdated: true,
 
+  // ─── Dead links permitidos (docs aún no escritas, ignoradas en build) ──
+  ignoreDeadLinks: [
+    /\/loyalty\//,
+    /\/integraciones\/netsuite-fidelizacion/,
+    /\/facturacion\/nubefact/,
+  ],
+
   // ─── Tema ───────────────────────────────────────────────────────────────
   themeConfig: {
     logo: '/logo.svg',
@@ -170,6 +177,12 @@ export default defineConfig({
         items: [
           { text: 'POS — Punto de Venta', link: '/16-pos' },
           { text: 'App Móvil', link: '/17-app-movil' },
+        ]
+      },
+      {
+        text: 'Planes y Precios',
+        items: [
+          { text: 'Comparativa de Planes', link: '/19-planes-y-precios' },
         ]
       },
       {
