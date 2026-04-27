@@ -183,6 +183,9 @@ export default defineConfig({
         text: 'Planes y Precios',
         items: [
           { text: 'Comparativa de Planes', link: '/19-planes-y-precios' },
+          { text: 'Prueba gratuita', link: '/20-prueba-gratis' },
+          { text: 'Pasarelas de pago disponibles', link: '/21-pasarelas-pago-vendedor' },
+          { text: 'Agendar una demo', link: '/22-agendar-demo' },
         ]
       },
       {
