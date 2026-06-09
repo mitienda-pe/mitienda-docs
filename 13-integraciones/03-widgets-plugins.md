@@ -13,6 +13,10 @@ Son herramientas de terceros que se cargan automáticamente en tu tienda online 
 
 Solo necesitas ingresar las credenciales del proveedor (generalmente un ID o API key que obtienes en tu cuenta de ese servicio) y MiTienda se encarga de cargar el script en tu tienda.
 
+::: tip ¿Buscás Storemapper o mapas de tiendas?
+Storemapper se inserta dentro del contenido de una página (no por esta sección) usando un shortcode tipo `[storemapper id="..."]`. Ver: **[Shortcodes y embebidos](../07-contenido/08-shortcodes.md)**.
+:::
+
 ## Cómo configurar un widget
 
 1. Ve a **Integraciones → Proveedores**

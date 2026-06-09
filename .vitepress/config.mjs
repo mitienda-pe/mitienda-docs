@@ -113,6 +113,7 @@ export default defineConfig({
           { text: 'Imágenes', link: '/07-contenido/05-galeria' },
           { text: 'Componentes', link: '/07-contenido/06-componentes' },
           { text: 'Mensajes', link: '/07-contenido/07-mensajes' },
+          { text: 'Shortcodes y embebidos', link: '/07-contenido/08-shortcodes' },
         ]
       },
       {

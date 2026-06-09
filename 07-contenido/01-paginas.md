@@ -56,6 +56,12 @@ Constructor por bloques con interfaz drag & drop. Ideal para páginas más compl
 
 > Puedes cambiar el editor de una página en cualquier momento, pero el contenido previo puede verse afectado si cambias entre Visual Builder y los otros editores.
 
+## Insertar mapas y widgets de terceros
+
+Podés embeber un mapa interactivo de tiendas físicas (Storemapper) o futuros widgets dentro del contenido usando **shortcodes** — pequeños marcadores tipo `[storemapper id="..."]` que se reemplazan automáticamente por el widget al renderizar la página.
+
+Funciona igual en páginas, posts del blog, descripción de producto y bloque HTML del home. Ver la guía completa en **[Shortcodes y embebidos](./08-shortcodes.md)**.
+
 ## Vista previa
 
 Antes de publicar, puedes ver cómo quedará la página usando el botón **Vista Previa**.
