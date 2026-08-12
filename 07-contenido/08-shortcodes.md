@@ -94,6 +94,86 @@ Y se renderiza así en el storefront:
 
 ---
 
+### Visor 3D y Realidad Aumentada
+
+Muestra tu producto en 3D y agrega un botón **Ver en AR** para que el comprador
+lo coloque en su propia habitación con la cámara del celular, sin instalar nada.
+El modelo 3D se genera automáticamente a partir de la foto del producto.
+
+**Cuándo usarlo:** muebles y decoración (sillas, sofás, mesas, lámparas), donde
+la duda de compra es "¿me va a entrar? ¿cómo se ve en mi sala?".
+
+::: warning Es un servicio adicional
+El visor 3D/AR no viene incluido en los planes: se contrata aparte con MiTienda.
+Además, el proveedor sólo habilita el visor en los dominios que le informamos, así
+que **escribinos antes** — no alcanza con escribir el shortcode.
+:::
+
+#### En la descripción de un producto
+
+Escribí el shortcode solo, sin nada más:
+
+```
+[ar]
+```
+
+MiTienda completa el resto: usa la **foto principal** del producto y sus
+**medidas** (Alto / Largo / Ancho de la pestaña de medidas), convertidas
+automáticamente a centímetros.
+
+::: tip Cargá las medidas
+Sin medidas el visor adivina el tamaño, y en AR el producto puede verse enorme o
+diminuto. Completá Alto, Largo y Ancho en la ficha del producto.
+:::
+
+Si tu producto es un sofá, una mesa o una lámpara, indicá la categoría para que
+se apoye bien en el piso:
+
+```
+[ar tipo="sofa"]
+```
+
+Valores válidos de `tipo`: `chair` (silla), `sofa`, `table` (mesa), `lamp`
+(lámpara), `other` (otro). Si no lo indicás, se usa `other`.
+
+#### En una página o en el blog
+
+Fuera de una ficha de producto no hay de dónde sacar la foto ni las medidas, así
+que hay que pasarlas a mano:
+
+```
+[ar imagen="https://mitienda.pe/uploads/silla-nordica.jpg" ancho="60" alto="90" profundidad="60" tipo="chair"]
+```
+
+| Atributo | Obligatorio | Qué va |
+| --- | --- | --- |
+| `imagen` | Sí (fuera de un producto) | URL pública de la foto. Un solo objeto sobre fondo limpio da el mejor modelo. |
+| `ancho`, `alto`, `profundidad` | Recomendado | Medidas reales **en centímetros**, solo números. |
+| `unidad` | No | Si preferís escribir las medidas en otra unidad: `m`, `mm`, `pulgadas`. Por defecto, centímetros. |
+| `tipo` | No | Categoría del objeto (ver arriba). |
+
+#### Qué ve el comprador
+
+La primera vez que alguien abre ese producto, el modelo se está generando y se
+muestra la foto con un indicador de carga. A partir de ahí queda guardado y los
+demás visitantes lo ven al instante.
+
+::: warning Si cambiás la foto, se genera un modelo nuevo
+El modelo está atado a la foto y a las medidas. Si editás cualquiera de las dos,
+se genera de nuevo (y el primer visitante vuelve a esperar). Guardar el producto
+sin cambiar esos valores no genera nada nuevo.
+:::
+
+#### Si no aparece nada
+
+- El visor todavía no está habilitado para tu tienda (escribinos).
+- Tu dominio no fue informado al proveedor — pasa si cambiaste de dominio
+  después de activarlo.
+- El producto no tiene foto principal.
+- La foto no es accesible públicamente.
+
+---
+
 ## Preguntas frecuentes
 
 **¿Puedo usar varios shortcodes en una misma página?**
@@ -109,8 +189,8 @@ Revisá:
 - Que el editor visual no haya envuelto el shortcode en etiquetas (cambiá al editor de código HTML para verificarlo).
 - Que tu cuenta de Storemapper esté activa.
 
-**¿Puedo agregar otros widgets además de Storemapper?**
-Por ahora MiTienda soporta solo el shortcode de Storemapper. Otros widgets (Crisp, Calendly, etc.) se agregarán por demanda — escribinos por el chat de soporte si necesitás uno específico.
+**¿Puedo agregar otros widgets?**
+Además de Storemapper y del visor 3D/AR, hay shortcodes para insertar productos, listas de productos, categorías y marcas dentro del contenido (los encontrás en el botón **Insertar shortcode** del editor de páginas). Otros widgets de terceros (Crisp, Calendly, etc.) se agregan por demanda — escribinos por el chat de soporte si necesitás uno específico.
 
 **¿Cómo desactivo el mapa temporalmente?**
 Editá la página y borrá la línea del shortcode. Para reactivarlo, volvé a pegarla.
