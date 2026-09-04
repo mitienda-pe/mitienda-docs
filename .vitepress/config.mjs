@@ -29,6 +29,15 @@ export default defineConfig({
   // ─── Última actualización ───────────────────────────────────────────────
   lastUpdated: true,
 
+  // ─── Documentos internos: no se publican ───────────────────────────────
+  // Son notas de trabajo del repo, no ayuda para el comerciante. Sin esto
+  // VitePress los compila y quedan accesibles en ayuda.mitienda.pe.
+  srcExclude: [
+    'CLAUDE.md',
+    'README.md',
+    'PLAN_PLUGIN_SYSTEM.md',
+  ],
+
   // ─── Dead links permitidos (docs aún no escritas, ignoradas en build) ──
   ignoreDeadLinks: [
     /\/loyalty\//,
@@ -73,6 +82,7 @@ export default defineConfig({
           { text: 'Libro de Reclamaciones', link: '/03-ventas/03-libro-reclamaciones' },
           { text: 'Carritos Abandonados', link: '/03-ventas/04-carritos-abandonados' },
           { text: 'Panel de Despacho', link: '/03-ventas/05-despacho' },
+          { text: 'Links de Pago', link: '/03-ventas/06-links-de-pago' },
           { text: 'Reportes', link: '/04-reportes' },
         ]
       },
@@ -88,6 +98,8 @@ export default defineConfig({
           { text: 'Etiquetas', link: '/05-catalogo/06-etiquetas' },
           { text: 'Listas de Productos', link: '/05-catalogo/07-listas' },
           { text: 'Configuración del Catálogo', link: '/05-catalogo/08-config-catalogo' },
+          { text: 'Inventario y Almacenes', link: '/05-catalogo/09-inventario' },
+          { text: 'Catálogos PDF', link: '/05-catalogo/10-catalogos-pdf' },
         ]
       },
       {
@@ -95,11 +107,14 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Promociones', link: '/06-marketing/01-promociones' },
+          { text: 'Promociones Avanzadas', link: '/06-marketing/02-promociones-avanzadas' },
           { text: 'Upsales', link: '/06-marketing/03-upsales' },
           { text: 'Combos', link: '/06-marketing/04-combos' },
           { text: 'Barras de Anuncio', link: '/06-marketing/05-barras-anuncio' },
           { text: 'Códigos de Referido', link: '/06-marketing/06-referidos' },
           { text: 'Permalinks de Carrito', link: '/06-marketing/07-permalinks' },
+          { text: 'Fidelización y Contabilidad', link: '/06-marketing/08-fidelizacion-contabilidad' },
+          { text: 'Recuperación de Carritos', link: '/06-marketing/09-recuperacion-carritos' },
         ]
       },
       {
@@ -125,6 +140,8 @@ export default defineConfig({
           { text: 'Tipografía', link: '/08-apariencia/03-tipografia' },
           { text: 'Viñeta de Producto', link: '/08-apariencia/04-tarjeta-producto' },
           { text: 'Menú de Navegación', link: '/08-apariencia/05-menu' },
+          { text: 'CSS Personalizado', link: '/08-apariencia/06-css-personalizado' },
+          { text: 'Plantilla', link: '/08-apariencia/07-plantilla' },
         ]
       },
       {
@@ -168,6 +185,7 @@ export default defineConfig({
           { text: 'TikTok', link: '/12-configuracion/07-tiktok' },
           { text: 'Webhooks', link: '/13-integraciones/05-webhooks' },
           { text: 'Monitor y Cola', link: '/13-integraciones/06-monitor' },
+          { text: 'Plugins', link: '/13-integraciones/07-plugins' },
           { text: 'NetSuite', link: '/14-netsuite' },
           { text: 'API', link: '/15-api' },
         ]
