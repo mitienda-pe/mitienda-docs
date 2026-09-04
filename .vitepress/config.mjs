@@ -35,7 +35,6 @@ export default defineConfig({
   srcExclude: [
     'CLAUDE.md',
     'README.md',
-    'PLAN_PLUGIN_SYSTEM.md',
   ],
 
   // ─── Dead links permitidos (docs aún no escritas, ignoradas en build) ──
