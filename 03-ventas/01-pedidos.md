@@ -17,10 +17,33 @@ Muestra todos los pedidos con opciones de filtrado y búsqueda.
 
 **Filtros disponibles:**
 
-- Estado de pago (pendiente, pagado, rechazado, reembolsado)
+- Estado de pago
 - Fecha desde / Fecha hasta
 
 **Búsqueda:** por número de referencia, email del cliente o número de documento.
+
+### Estados de pago
+
+| Estado | Significa |
+|---|---|
+| Sin pago | El pedido se creó pero el cliente nunca llegó a iniciar el pago |
+| Pendiente | El pago está en curso o esperando confirmación (ej: transferencia por validar) |
+| Pagado | Cobrado y confirmado |
+| Rechazado | La pasarela rechazó el cobro |
+| Expirado | Venció el plazo para pagar sin que se completara |
+| Anulado | Anulaste la venta desde el panel |
+| Contracargo | El cliente desconoció el cargo ante su banco y el dinero se revirtió |
+| Reembolsado | Se devolvió el dinero al cliente |
+
+::: tip "Sin pago" y "Expirado" no son lo mismo que "Rechazado"
+Rechazado significa que hubo un intento de cobro y falló — ahí conviene mirar el [reporte de Rechazos de Pago](../04-reportes.md). En "Sin pago" y "Expirado" nunca hubo intento: son carritos que no llegaron a pagarse.
+:::
+
+### Columna Sync
+
+Si tu tienda envía las ventas a un ERP o WMS, el listado muestra la columna **Sync** con el estado de cada pedido: sincronizado, pendiente o con error. Aparece solo si hay pedidos con integración.
+
+Sirve para detectar de un vistazo las ventas que no llegaron al ERP. Una venta que no llegó no está en tu contabilidad, y antes eso solo se veía entrando pedido por pedido.
 
 ## Detalle del pedido
 
@@ -57,7 +80,22 @@ Mapa interactivo que muestra las coordenadas GPS de la dirección de entrega, co
 
 ### Sincronización ERP
 
-Si tu tienda tiene integración con NetSuite, verás una sección que muestra el estado de la sincronización automática del pedido con el ERP (pendiente, sincronizado o con error).
+Si tu tienda tiene integración con un ERP, verás una sección con el estado de la sincronización automática del pedido (pendiente, sincronizado o con error). Cuando falla, hay un botón para **reintentar el envío** sin tener que rehacer la venta.
+
+### Anular una venta
+
+Desde el detalle puedes anular una venta. **La acción no se puede deshacer** y hace lo siguiente:
+
+- La venta pasa a **Anulada** y deja de contar en tus reportes.
+- **Se repone el stock** de los productos.
+- Si ya se emitió comprobante, **se solicita la baja ante SUNAT**.
+- Si la venta llegó al almacén, se intenta cancelar el pedido allí. Si ya fue despachado, el panel te avisa: eso se resuelve con el proveedor.
+
+Es obligatorio escribir un **motivo**, que queda registrado junto con el usuario que anuló.
+
+::: danger Anular no devuelve el dinero
+La anulación ordena tu inventario y tu contabilidad, pero **no reembolsa al cliente**. El reembolso se hace aparte, desde el panel de tu pasarela de pago.
+:::
 
 ## Descargar documentos del pedido
 

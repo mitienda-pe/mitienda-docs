@@ -27,6 +27,7 @@ El formulario de **Nuevo Producto** es simplificado y solo incluye los campos b�
 
 | Campo | Descripción |
 |---|---|
+| Tipo | **Físico** (requiere stock y envío) o **Servicio** (sin stock ni envío; el cliente recibe un código/QR de canje) |
 | Nombre | Nombre del producto (aparece en la tienda) |
 | SKU | Código interno único del producto |
 | Código de barras | EAN o UPC (opcional) |
@@ -40,6 +41,25 @@ El formulario de **Nuevo Producto** es simplificado y solo incluye los campos b�
 | Precio con IGV (S/) | Precio de venta con IGV incluido |
 | Precio sin IGV | Se calcula automáticamente o puedes ingresarlo manual |
 | Afectación IGV | Gravado (18%), Exonerado o Inafecto |
+| Costo de compra | Lo que te cuesta el producto. **No se muestra al cliente**: sirve para calcular tu ganancia, y el formulario te muestra el margen estimado |
+
+::: tip Con variantes, el precio y el costo van por variante
+Si el producto usa variantes, estos campos desaparecen del formulario principal: cada variante define su propio precio y costo en el panel **Variantes**.
+:::
+
+#### Precios por mayor
+
+Define un **precio unitario menor a partir de cierta cantidad**. Se aplica solo cuando el cliente llega a esa cantidad de *ese mismo* producto.
+
+| Campo | Descripción |
+|---|---|
+| Variante | A cuál aplica el tramo, o "Todas las variantes" |
+| Desde | Cantidad a partir de la cual aplica. Mínimo 2 |
+| Precio unitario | El precio final por unidad en ese tramo, **no un porcentaje de descuento** |
+
+No puede haber dos tramos con la misma cantidad para la misma variante. Si pones un precio mayor o igual al base el sistema te avisa, pero te deja guardarlo.
+
+Es un módulo del plan: si no lo ves en el formulario, tu plan no lo incluye.
 
 ### Stock
 
@@ -47,6 +67,19 @@ El formulario de **Nuevo Producto** es simplificado y solo incluye los campos b�
 |---|---|
 | Stock | Cantidad disponible |
 | Stock ilimitado | Actívalo si no deseas controlar inventario |
+| Vender al peso | El precio se interpreta como precio por unidad de peso. En el POS ingresas el peso (ej. 0.250) y el precio se calcula como peso × precio. Se recomienda con stock ilimitado |
+
+Si tu tienda está conectada a un ERP, aquí aparecen además los botones **Consultar** y **Sincronizar** para traer el stock desde el ERP. No funcionan con stock ilimitado.
+
+### Cantidad máxima de compra
+
+Limita cuántas unidades de un producto puede llevar un cliente en una misma compra. Útil para productos en oferta o de stock escaso.
+
+- **0 = sin límite.**
+- Aplica **solo a la tienda virtual**: las ventas del POS no tienen tope.
+- El límite es del producto, así que aplica igual aunque tenga variantes.
+
+Esta sección aparece solo si activaste la opción de limitar cantidad en la [Configuración General](../12-configuracion/03-config-general.md) de tu tienda.
 
 ### Peso y dimensiones
 
