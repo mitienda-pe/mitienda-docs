@@ -39,7 +39,34 @@ Para vender de forma presencial en tu tienda física o stand, registrando las ve
 
 Todos los pedidos realizados desde el POS aparecen en tu Panel Administrador bajo **Ventas → Pedidos** con el origen marcado como "POS".
 
+## Precios (Perú)
+
+El POS viene incluido en los planes **Small, Medium y Large**. El plan Micro no
+lo incluye, pero puedes sumarlo o contratar el POS por separado:
+
+| Opción | Precio mensual | Incluye |
+|---|---|---|
+| MiTienda POS solo | S/ 49 + IGV | El punto de venta. No incluye tienda online. |
+| Plan Micro + POS | S/ 79 + IGV | Tienda online y punto de venta. |
+| Plan Micro (solo) | S/ 49 + IGV | Tienda online. No incluye POS. |
+
+- La primera caja va incluida; cada **caja adicional** cuesta S/ 30 + IGV al mes.
+- Ambas opciones cubren hasta **S/ 30.000 al mes** en ventas procesadas.
+- Incluyen facturación electrónica SUNAT desde el mismo equipo.
+- Sumar la tienda online después de contratar el POS solo cuesta S/ 30 más al mes.
+
+Puedes ver el detalle y solicitar una demo en <https://pos.mitienda.pe>.
+
 ## Preguntas frecuentes
+
+**¿Cuánto cuesta el POS?**
+En Perú, S/ 49 + IGV al mes si lo contratas solo, o S/ 79 + IGV al mes junto con
+el plan Micro (tienda online + POS). Si ya tienes un plan Small, Medium o Large,
+el POS está incluido y no pagas nada extra.
+
+**¿Necesito el plan Medium para usar el POS?**
+No. Los planes Small, Medium y Large lo incluyen, y con el plan Micro puedes
+sumarlo. También se puede contratar el POS solo, sin tienda online.
 
 **¿El POS funciona sin internet?**
 No. El POS requiere conexión a internet para consultar el catálogo y registrar los pedidos en tiempo real.

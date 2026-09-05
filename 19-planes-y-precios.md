@@ -102,10 +102,24 @@ Notas:
 | Transferencia / depósito bancario | ✓ | ✓ | ✓ | ✓ |
 | Cupones de descuento | — | ✓ | ✓ | ✓ |
 | Promociones y descuentos | — | — | ✓ | ✓ |
-| Punto de venta presencial (POS) | — | — | ✓ | ✓ |
+| Punto de venta presencial (POS) | — | ✓ | ✓ | ✓ |
 | Reservas y pedidos en espera | — | — | — | ✓ |
 
 El POS de MiTienda permite vender de manera presencial (en mostrador, ferias, eventos), emitir comprobantes e integrar el inventario con la tienda online en tiempo real.
+
+**El POS también se vende por separado (Perú).** No hace falta un plan Small o
+superior para usarlo:
+
+| Opción | Precio mensual | Incluye |
+|---|---|---|
+| Plan Micro | S/ 49 + IGV | Tienda online. **No incluye POS.** |
+| MiTienda POS solo | S/ 49 + IGV | El punto de venta. **No incluye tienda online.** |
+| Plan Micro + POS | S/ 79 + IGV | Ambos: tienda online y punto de venta. |
+
+Cada caja adicional cuesta S/ 30 + IGV al mes. Los planes Small, Medium y Large
+ya incluyen el POS sin costo extra.
+
+Más detalle en [POS — Punto de Venta](/16-pos) y en <https://pos.mitienda.pe>.
 
 ### Diseño y personalización
 
@@ -291,6 +305,7 @@ El plan más popular para tiendas que ya están operando.
 - Pasarelas locales (Culqi, Niubiz, Izipay, Yape/Plin en Perú; PayU en Colombia; PayPhone en Ecuador).
 - Google Analytics 4, Facebook Pixel + CAPI, Microsoft Clarity y Blog integrado.
 - Cupones de descuento.
+- Punto de Venta presencial (POS).
 - Comisión 1,5%.
 
 Es el plan recomendado para la mayoría de tiendas pequeñas y medianas que necesitan vender con su propio dominio y rastrear conversiones.
@@ -352,7 +367,7 @@ No. Las variantes y atributos están disponibles desde el plan Small. El plan Mi
 Sólo en el plan Large. Si el negocio necesita conectar la tienda con un ERP, WMS o sistema externo vía API, requiere Large.
 
 **¿El POS está incluido en el plan Small?**
-No. El Punto de Venta presencial (POS) está disponible desde el plan Medium.
+Sí. El Punto de Venta presencial (POS) viene incluido en los planes Small, Medium y Large. El plan Micro no lo incluye, pero en Perú puedes sumarlo por S/ 30 + IGV al mes (Micro + POS = S/ 79 + IGV), o contratar el POS solo por S/ 49 + IGV al mes sin tienda online.
 
 **¿La facturación electrónica está incluida?**
 En Perú, la integración con Nubefact para emitir comprobantes electrónicos (boletas y facturas) está disponible desde el plan Medium. En Ecuador y Colombia la facturación electrónica se gestiona fuera de la plataforma.
