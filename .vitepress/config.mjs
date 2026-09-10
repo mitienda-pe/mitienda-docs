@@ -183,6 +183,7 @@ export default defineConfig({
           { text: 'Facebook / Meta', link: '/12-configuracion/06-facebook-meta' },
           { text: 'TikTok', link: '/12-configuracion/07-tiktok' },
           { text: 'Webhooks', link: '/13-integraciones/05-webhooks' },
+          { text: 'Webhooks — payloads', link: '/13-integraciones/08-webhooks-payloads' },
           { text: 'Monitor y Cola', link: '/13-integraciones/06-monitor' },
           { text: 'Plugins', link: '/13-integraciones/07-plugins' },
           { text: 'NetSuite', link: '/14-netsuite' },

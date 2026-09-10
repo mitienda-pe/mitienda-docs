@@ -32,6 +32,11 @@ Si la entrega falla, el sistema reintenta automáticamente hasta 3 veces.
 
 Para verificar que un webhook fue enviado por MiTienda, valida la firma HMAC incluida en los headers de cada solicitud usando tu secret key.
 
+::: tip Para tu equipo de desarrollo
+La estructura exacta del JSON, los nombres de los headers y el código de
+verificación de firma están en [Webhooks — payloads](/13-integraciones/08-webhooks-payloads).
+:::
+
 ## Preguntas frecuentes
 
 **¿Cuántos webhooks puedo crear?**
