@@ -188,11 +188,17 @@ recojo en tienda es al revés: `shipping` llega **`null`** y los datos van en
 `pickup_store`. `receive_type` dice cuál de los dos mirar. `shipping` también
 llega `null` si todos los ítems del pedido son servicios.
 
-**`billing_address` puede llegar como lista vacía `[]`.** Ocurre cuando el pedido
-no tiene ubigeo de facturación — el caso normal de una Boleta, donde el domicilio
-fiscal no se solicita. No es un objeto vacío: es `[]`. Conviene tolerar las dos
-formas al deserializar. La dirección de entrega está siempre en
-`shipping.receiver_address`.
+**`billing_address` es el domicilio del comprobante.** En una **Factura** es el
+domicilio fiscal del RUC. En una **Boleta** se completa con la dirección de
+entrega del pedido, que es el comportamiento histórico de la plataforma.
+
+Puede llegar como **lista vacía `[]`** —no como objeto vacío— cuando el pedido no
+tiene ninguna de las dos: una Factura cuyo domicilio fiscal no se pudo resolver,
+o un pedido con recojo en tienda, que no tiene dirección de entrega que copiar.
+Conviene tolerar las dos formas al deserializar.
+
+La dirección de **entrega** está siempre en `shipping.receiver_address` (o en
+`pickup_store.receiver_address` si es recojo): ese es el campo para despacho.
 
 **`doc_id` de `billing_info` llega como texto** (`"2"`), mientras que el `doc_id`
 de `shipping` y `customer` llega como número. Es una inconsistencia histórica del
