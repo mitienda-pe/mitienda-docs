@@ -1,0 +1,7 @@
+# Aprobar build scripts de dependencias con binarios nativos / pasos de build.
+# pnpm 11 los ignora por defecto y hay que declararlos uno a uno.
+#
+# - esbuild: bundler que usa Vite, y por tanto VitePress. Sin su postinstall
+#   no baja el binario de la plataforma y el build no arranca.
+allowBuilds:
+  esbuild: true

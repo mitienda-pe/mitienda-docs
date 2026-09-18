@@ -4,7 +4,23 @@
       "Bash(gh auth status)",
       "Bash(gh org list)",
       "Bash(git init)",
-      "Bash(git add -A)"
+      "Bash(git add -A)",
+      "Bash(git commit:*)",
+      "Bash(gh repo create mitienda-pe/mitienda-docs --public --description \"Centro de Ayuda — Manual de usuario del Panel Administrador MiTienda.pe\" --source . --push)",
+      "Bash(npm run build)",
+      "Bash(git add .vitepress/config.mjs 01-dashboard.md 02-clientes.md 03-ventas/01-pedidos.md 03-ventas/03-libro-reclamaciones.md 03-ventas/04-carritos-abandonados.md 04-reportes.md 05-catalogo/01-productos.md 06-marketing/01-promociones.md 06-marketing/02-promociones-avanzadas.md 10-envios.md 11-facturacion.md 12-configuracion/01-informacion.md FAQ.md)",
+      "Bash(git push origin main)",
+      "Bash(git add .vitepress/config.mjs 03-ventas/02-reviews.md 05-catalogo/04-gammas.md 05-catalogo/07-listas.md 06-marketing/03-upsales.md 06-marketing/04-combos.md 06-marketing/05-barras-anuncio.md 06-marketing/06-referidos.md 07-contenido/01-paginas.md 07-contenido/02-blog.md 07-contenido/04-carrusel.md 07-contenido/05-galeria.md 07-contenido/07-mensajes.md 08-apariencia/01-general.md 08-apariencia/02-colores.md 08-apariencia/03-tipografia.md 08-apariencia/04-tarjeta-producto.md 08-apariencia/05-menu.md 13-integraciones.md 14-netsuite.md 15-api.md)",
+      "Bash(git push)",
+      "Bash(grep -rl \"local-search\\\\|LocalSearch\\\\|miniSearch\\\\|MiniSearch\" /Users/carlosvidal/www/mitienda/mitienda-docs/.vitepress/dist/assets/*.js)",
+      "Bash(curl -s http://localhost:4174)",
+      "WebFetch(domain:ayuda.mitienda.pe)",
+      "WebFetch(domain:github.com)",
+      "Bash(VITE_CJS_TRACE=1 npm run build)",
+      "Bash(DEBUG=\"vitepress:local-search\" npm run build)",
+      "Bash(node -e \":*)",
+      "Bash(cat /Users/carlosvidal/www/mitienda/mitienda-docs/.vitepress/dist/assets/chunks/@localSearchIndex*.js)",
+      "Bash(wc -c /Users/carlosvidal/www/mitienda/mitienda-docs/.vitepress/dist/assets/chunks/@localSearchIndex*.js)"
     ]
   }
 }

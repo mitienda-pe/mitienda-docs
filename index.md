@@ -48,6 +48,6 @@ features:
   - icon: 🔗
     title: Integraciones
     details: Conecta Mailchimp, Klaviyo, Zapier, NetSuite, Facebook CAPI y más desde un solo lugar.
-    link: /13-integraciones
+    link: /13-integraciones/01-overview
     linkText: Ver integraciones
 ---
