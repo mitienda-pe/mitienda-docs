@@ -94,6 +94,32 @@ Y se renderiza así en el storefront:
 
 ---
 
+### Calendly y TidyCal — agenda de citas
+
+Muestra tu calendario de reservas dentro de una página para que tus clientes agenden una cita, una asesoría o una visita sin salir de tu tienda.
+
+**Cuándo usarlo:** servicios con cita previa (asesorías, pruebas, instalaciones, visitas al showroom). Es ideal para una página tipo "Agenda tu cita".
+
+Copiá el enlace de tu evento — el mismo que compartís para que te reserven — y pegalo en el shortcode:
+
+```
+[calendly url="https://calendly.com/tu-usuario/reunion-30min"]
+```
+
+```
+[tidycal url="https://tidycal.com/tu-usuario/reunion-30min"]
+```
+
+También podés insertarlos desde el botón **Insertar shortcode** del editor, en el grupo **Widgets externos**.
+
+::: warning Importante
+- Pegar el código para insertar que te dan Calendly o TidyCal no funciona: lleva un script y MiTienda lo quita. Usá el shortcode con el enlace.
+- El enlace tiene que ser de `calendly.com` o `tidycal.com`; con cualquier otro dominio no se muestra nada.
+- Las reservas, los recordatorios y los cobros los maneja el proveedor: MiTienda solo muestra el calendario.
+:::
+
+---
+
 ### Visor 3D y Realidad Aumentada
 
 Muestra tu producto en 3D y agrega un botón **Ver en AR** para que el comprador
@@ -190,7 +216,7 @@ Revisá:
 - Que tu cuenta de Storemapper esté activa.
 
 **¿Puedo agregar otros widgets?**
-Además de Storemapper y del visor 3D/AR, hay shortcodes para insertar productos, listas de productos, categorías y marcas dentro del contenido (los encontrás en el botón **Insertar shortcode** del editor de páginas). Otros widgets de terceros (Crisp, Calendly, etc.) se agregan por demanda — escribinos por el chat de soporte si necesitás uno específico.
+Además de Storemapper, las agendas de Calendly y TidyCal y el visor 3D/AR, hay shortcodes para insertar productos, listas de productos, categorías y marcas dentro del contenido (los encontrás en el botón **Insertar shortcode** del editor de páginas). Otros widgets de terceros se agregan por demanda — escribinos por el chat de soporte si necesitás uno específico.
 
 **¿Cómo desactivo el mapa temporalmente?**
 Editá la página y borrá la línea del shortcode. Para reactivarlo, volvé a pegarla.
