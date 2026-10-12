@@ -162,6 +162,34 @@ se apoye bien en el piso:
 Valores válidos de `tipo`: `chair` (silla), `sofa`, `table` (mesa), `lamp`
 (lámpara), `other` (otro). Si no lo indicás, se usa `other`.
 
+#### Usar más de una foto
+
+Por defecto el modelo se arma con **una sola foto**: la principal del producto.
+Si tu producto tiene varias tomas del mueble solo, sobre fondo limpio, podés
+pasar más y el modelo sale mejor:
+
+```
+[ar fotos="3"]
+```
+
+Toma las primeras 3 de la galería, en el orden en que están. El máximo es 6
+(`fotos="todas"` manda las 6 primeras).
+
+::: warning Mirá la galería antes de subir el número
+Sirven las fotos **del producto solo, sobre fondo limpio**, desde distintos
+ángulos. En cambio empeoran el modelo: las fotos ambientadas, los planos de
+medidas, los primeros planos de un detalle y las de otro color.
+
+Como se toman **las primeras N en orden**, revisá que las primeras sean las
+buenas. Si tu galería alterna producto y ambiente, subir el número empeora el
+resultado en vez de mejorarlo.
+:::
+
+::: warning Cambiarlo consume un modelo
+Si el producto ya tenía su visor andando, cambiar la cantidad de fotos hace que
+se genere un modelo nuevo, y eso descuenta uno de los de tu plan.
+:::
+
 #### En una página o en el blog
 
 Fuera de una ficha de producto no hay de dónde sacar la foto ni las medidas, así
