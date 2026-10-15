@@ -99,6 +99,7 @@ export default defineConfig({
           { text: 'Configuración del Catálogo', link: '/05-catalogo/08-config-catalogo' },
           { text: 'Inventario y Almacenes', link: '/05-catalogo/09-inventario' },
           { text: 'Catálogos PDF', link: '/05-catalogo/10-catalogos-pdf' },
+          { text: 'Imágenes de productos', link: '/05-catalogo/11-imagenes-productos' },
         ]
       },
       {
@@ -163,6 +164,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Información', link: '/12-configuracion/01-informacion' },
+          { text: 'El link de tu tienda', link: '/12-configuracion/12-link-de-tu-tienda' },
           { text: 'Sucursales', link: '/12-configuracion/02-sucursales' },
           { text: 'Configuración General', link: '/12-configuracion/03-config-general' },
           { text: 'Dominio Propio', link: '/12-configuracion/04-dominio' },
@@ -170,7 +172,18 @@ export default defineConfig({
           { text: 'Enlaces de la tienda anterior', link: '/12-configuracion/11-enlaces-antiguos' },
           { text: 'Usuarios del Equipo', link: '/12-configuracion/08-usuarios-equipo' },
           { text: 'Notificaciones', link: '/12-configuracion/09-notificaciones' },
+        ]
+      },
+      {
+        text: 'Cuenta y suscripción',
+        collapsed: true,
+        items: [
           { text: 'Plan y Suscripción', link: '/12-configuracion/10-suscripcion' },
+          { text: 'Pagar o renovar tu plan', link: '/23-cuenta/01-pagar-y-renovar' },
+          { text: 'Cobro automático con tarjeta', link: '/23-cuenta/02-tarjeta-cobro-automatico' },
+          { text: 'Facturas de tu suscripción', link: '/23-cuenta/03-facturas-suscripcion' },
+          { text: 'Cancelar o eliminar tu tienda', link: '/23-cuenta/04-cancelar-o-eliminar' },
+          { text: 'Acceso y contraseña', link: '/23-cuenta/05-acceso-y-contrasena' },
         ]
       },
       {

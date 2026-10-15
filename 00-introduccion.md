@@ -15,6 +15,8 @@ MiTienda.pe es una plataforma para crear y gestionar tu tienda online. Desde el 
 2. Escribe tu email y contraseña
 3. Si tienes acceso a múltiples tiendas, selecciona la tienda con la que deseas trabajar
 
+¿Olvidaste tu contraseña o no te llega el enlace? Ver [Acceso y contraseña](23-cuenta/05-acceso-y-contrasena.md).
+
 ## Estructura del Panel
 
 El panel está organizado en secciones accesibles desde el menú lateral:
@@ -45,10 +47,11 @@ Para poner tu tienda en línea sigue este orden:
 4. **Catálogo** — crea tus categorías y carga tus productos
 5. **Apariencia** — personaliza colores, tipografía y menú
 6. **Facturación** — configura si emitirás comprobantes electrónicos
+7. **Comparte tu tienda** — copia el link de tu tienda y publícalo en tus redes. Ver [El link de tu tienda](12-configuracion/12-link-de-tu-tienda.md)
 
 ## Módulos disponibles según tu plan
 
-Algunos módulos están disponibles solo en ciertos planes de suscripción. Si ves una sección bloqueada, puedes actualizar tu plan desde **Tu Tienda → Plan y Suscripción**.
+Algunos módulos están disponibles solo en ciertos planes de suscripción. Si ves una sección bloqueada, revisa tu plan en **Tu Tienda → Suscripcion** y pide el cambio de plan a soporte. Ver [Pagar o renovar tu plan](23-cuenta/01-pagar-y-renovar.md#cambiar-de-plan-al-renovar).
 
 ## Usuarios del equipo
 

@@ -24,6 +24,10 @@ Los datos básicos de tu tienda que aparecen en el storefront, emails y comproba
 | WhatsApp | Número para el botón de WhatsApp (si aplica) |
 | Redes sociales | Facebook, Instagram, YouTube, TikTok, LinkedIn |
 
+::: tip ¿Buscas el link de tu tienda?
+Cambiar el **Nombre Comercial** no cambia el link de tu tienda. Para encontrar, compartir o cambiar el link, ver [El link de tu tienda](12-link-de-tu-tienda.md).
+:::
+
 ## Preguntas frecuentes
 
 **¿El nombre de la tienda aparece en los comprobantes?**

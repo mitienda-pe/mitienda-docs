@@ -92,10 +92,12 @@ Necesarios para el cálculo de envío por peso con couriers.
 
 ### Imágenes y videos
 
-- Sube múltiples imágenes (JPG, PNG, WebP)
-- Reordénalas con drag & drop
+- Sube múltiples imágenes (JPG, PNG, WebP; mínimo 600 × 600 píxeles y hasta 10 MB). La cantidad por producto depende de tu plan
+- Reordénalas con drag & drop: la primera es la principal
 - Sube un video del producto (MP4 o link de YouTube/Vimeo)
 - Adjunta documentos como fichas técnicas (PDF, DOC, DOCX)
+
+Medidas recomendadas, límites por plan y carga por ZIP: ver [Imágenes de productos](11-imagenes-productos.md).
 
 ### Clasificación
 

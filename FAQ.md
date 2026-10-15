@@ -14,11 +14,42 @@ Respuestas a las preguntas más comunes sobre el uso del Panel Administrador de 
 **¿Puedo tener varias tiendas con una sola cuenta?**
 Sí. Una cuenta puede gestionar múltiples tiendas. Al iniciar sesión puedes seleccionar con cuál trabajar.
 
-**¿Cómo cambio mi contraseña?**
-Desde la opción de perfil en la esquina superior del panel puedes actualizar tu contraseña.
+**Olvidé mi contraseña o no me llega el enlace.**
+En la pantalla de inicio de sesión haz clic en **¿Olvidaste tu contraseña?**, escribe tu correo y abre el enlace que te llega (vence en 1 hora y solo sirve el último que pediste). Si no llega, revisa spam, confirma que es el correo de tu cuenta y espera unos minutos antes de pedir otro. Ver: [Acceso y contraseña](23-cuenta/05-acceso-y-contrasena.md).
+
+**¿Cómo cambio mi contraseña si ya estoy dentro del panel?**
+Haz clic en tu nombre (arriba a la derecha) → **Mi Perfil** → **Cambiar Contraseña** → **Enviar enlace de cambio de contraseña**. Te llega un correo con el enlace para crear la nueva. Ver: [Cambiar tu contraseña](23-cuenta/05-acceso-y-contrasena.md#cambiar-tu-contraseña).
+
+**¿Dónde está el link de mi tienda?**
+En la barra superior del panel (el nombre de tu tienda) y en **Mis Tiendas**. Ver: [El link de tu tienda](12-configuracion/12-link-de-tu-tienda.md).
+
+**¿Puedo cambiar el nombre o el subdominio de mi tienda?**
+El nombre sí, desde **Tu Tienda → Información → Nombre Comercial**. El subdominio no se cambia desde el panel: pídelo a soporte o conecta un dominio propio. Ver: [El link de tu tienda](12-configuracion/12-link-de-tu-tienda.md).
 
 **¿Puedo transferir mi tienda a otra persona?**
 Contacta al soporte de MiTienda para gestionar el cambio de titularidad de una tienda.
+
+---
+
+## Suscripción y Pagos del Plan
+
+**¿Cómo pago o renuevo mi plan? ¿Puedo pagar con Yape o transferencia?**
+La renovación se coordina con soporte desde el botón de ayuda **?** → **Soporte humano**. Se acepta transferencia o depósito bancario, Yape y tarjeta. Ver: [Pagar o renovar tu plan](23-cuenta/01-pagar-y-renovar.md).
+
+**Pagué y mi tienda sigue fuera de servicio.**
+Revisa en **Tu Tienda → Suscripcion → Historial de Suscripciones** que el pago esté registrado, espera unos minutos y recarga sin caché. Ver: [Pagué y mi tienda sigue "no disponible"](23-cuenta/01-pagar-y-renovar.md#pagué-y-mi-tienda-sigue-no-disponible).
+
+**¿Qué pasa si vence mi plan?**
+Tu tienda deja de mostrarse al día siguiente de la fecha de renovación, pero tus datos no se borran. Ver: [Qué pasa cuando vence el plan](23-cuenta/01-pagar-y-renovar.md#qué-pasa-cuando-vence-el-plan).
+
+**¿Cómo cambio la tarjeta del cobro automático?**
+Ver: [Cobro automático con tarjeta](23-cuenta/02-tarjeta-cobro-automatico.md).
+
+**¿Dónde descargo las facturas de mi suscripción?**
+Hoy no se descargan desde el panel: se piden a soporte. Ver: [Facturas de tu suscripción](23-cuenta/03-facturas-suscripcion.md).
+
+**¿Cómo cancelo mi suscripción o elimino mi tienda?**
+Ver: [Cancelar tu suscripción o eliminar tu tienda](23-cuenta/04-cancelar-o-eliminar.md).
 
 ---
 
@@ -32,6 +63,9 @@ Desactiva el switch **Publicado** en el producto. El producto seguirá existiend
 
 **¿Los productos sin stock se muestran en la tienda?**
 Depende de la configuración del catálogo. Puedes elegir ocultarlos o mostrarlos (con indicación de agotado). Ver: [Configuración del Catálogo](05-catalogo/08-config-catalogo.md).
+
+**¿Qué tamaño deben tener las imágenes de productos? ¿Cuántas puedo subir?**
+JPG, PNG o WebP, mínimo 600 × 600 píxeles y hasta 10 MB. Puedes subir 6 imágenes por producto en Micro y Small, 12 en Medium y sin límite en Large. Ver: [Imágenes de productos](05-catalogo/11-imagenes-productos.md).
 
 **¿Puedo tener el mismo producto en varias categorías?**
 Sí. Un producto puede asignarse a múltiples categorías sin restricción.

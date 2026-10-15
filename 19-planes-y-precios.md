@@ -339,11 +339,11 @@ Indispensable cuando el negocio requiere conectar la tienda con un ERP/WMS, sinc
 
 ## Cambios de plan
 
-Los cambios de plan se gestionan desde el panel administrador en **Tu Tienda → Plan y Suscripción**.
+Los cambios de plan se piden a soporte desde el botón de ayuda del panel (**?** → **Soporte humano**). En **Tu Tienda → Suscripcion** ves tu plan actual y el uso de tus cuotas. Ver [Pagar o renovar tu plan](23-cuenta/01-pagar-y-renovar.md).
 
 - **Upgrade**: el cambio a un plan superior se aplica de inmediato y se prorratea contra el saldo del período actual.
 - **Downgrade**: el cambio a un plan inferior se aplica al final del período facturado. Si el catálogo o usuarios exceden las cuotas del nuevo plan, hay que ajustarlos antes del cambio.
-- **Cancelación**: se puede cancelar la suscripción en cualquier momento. La tienda permanece activa hasta el final del período pagado.
+- **Cancelación**: se puede cancelar la suscripción en cualquier momento. La tienda permanece activa hasta el final del período pagado. Ver [Cancelar tu suscripción o eliminar tu tienda](23-cuenta/04-cancelar-o-eliminar.md).
 
 ## Prueba gratuita
 
@@ -373,7 +373,7 @@ Sí. El Punto de Venta presencial (POS) viene incluido en los planes Small, Medi
 En Perú, la integración con Nubefact para emitir comprobantes electrónicos (boletas y facturas) está disponible desde el plan Medium. En Ecuador y Colombia la facturación electrónica se gestiona fuera de la plataforma.
 
 **¿Puedo cambiar de plan más adelante?**
-Sí, en cualquier momento desde **Tu Tienda → Plan y Suscripción**. Los upgrades son inmediatos; los downgrades se aplican al final del período facturado.
+Sí, en cualquier momento, pidiéndolo a soporte. Los upgrades son inmediatos; los downgrades se aplican al final del período facturado.
 
 **¿Cuánto cuesta el diseño 100% personalizado?**
 Es un servicio bajo cotización, independiente del plan contratado. Para solicitar un diseño a medida, se debe contactar al equipo de MiTienda / TiendaBox por los canales de soporte.
