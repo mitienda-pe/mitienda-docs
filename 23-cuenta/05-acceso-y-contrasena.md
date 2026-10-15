@@ -50,7 +50,8 @@ El enlace de invitación vence a las **72 horas**. Si venció, no necesitas otra
 
 | Mensaje | Qué hacer |
 |---|---|
-| **Error de conexión** | Revisa tu internet y vuelve a escribir el correo y la contraseña. Hoy este mensaje también aparece cuando la contraseña es incorrecta: si dudas de tu contraseña, recupérala |
+| **Credenciales inválidas** | El correo o la contraseña no coinciden. Revisa que el correo sea el de tu cuenta y que no tengas las mayúsculas activadas. Si no recuerdas la contraseña, recupérala |
+| **No pudimos conectar con el servidor. Revisa tu conexión a internet e inténtalo de nuevo.** | Tu equipo no llegó a MiTienda. Revisa tu internet o prueba desde otra red |
 | **Demasiados intentos. Espera unos minutos e intenta de nuevo.** | Hubo muchos intentos seguidos. Espera unos minutos |
 | **Usuario sin tiendas asignadas. Contacte al administrador.** | Tu usuario existe pero no tiene acceso a ninguna tienda. Pide al dueño que te invite desde **Tu Tienda → Usuarios** |
 | **No existe una cuenta con el correo ... Por favor regístrate primero.** | La cuenta de Google o Facebook usa un correo distinto al de MiTienda. Entra con tu correo y contraseña |
