@@ -22,7 +22,7 @@ El estado de tu plan, cuánto de sus cuotas estás usando y el historial de tus 
 
 ## Uso del Plan
 
-Muestra cuántos **Productos** y **Usuarios** usas frente al máximo de tu plan (las páginas no tienen límite en ningún plan). La barra se pone amarilla al 70 % y roja al 90 %. Si tu plan no tiene límite, verás **Ilimitado**.
+Muestra cuántos **Productos** y **Usuarios** usas frente al máximo de tu plan. La barra se pone amarilla al 70 % y roja al 90 %. Si tu plan no tiene límite, verás **Ilimitado**.
 
 ## Metodo de pago
 

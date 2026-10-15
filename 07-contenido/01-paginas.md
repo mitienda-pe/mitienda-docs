@@ -27,10 +27,6 @@ Ve a **Contenido → Páginas → Nueva Página**.
 El formulario inicial de "Nueva Página" muestra solo los campos básicos (Título, Slug, Contenido). Los campos de publicación, SEO e imagen Open Graph aparecen en una fase posterior del editor.
 :::
 
-::: tip Sin límite de páginas
-Puedes crear todas las páginas que necesites: ningún plan tiene límite de páginas.
-:::
-
 ## Editores disponibles
 
 Puedes elegir entre tres modos de edición:

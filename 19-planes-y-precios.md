@@ -65,9 +65,9 @@ Estas cuotas son iguales para los 3 países.
 | Cuota | Micro | Small | Medium | Large |
 |---|---|---|---|---|
 | Productos | 50 | 100 | 500 | Ilimitado |
-| Usuarios administradores | 1 | 1 | 3 | Ilimitado |
+| Usuarios administradores | 1 | 1 | 2 | Ilimitado |
 
-Las páginas personalizadas (Nosotros, FAQ, Términos, etc.) no tienen límite en ningún plan. Los usuarios administradores son las personas del equipo que pueden ingresar al panel administrador con permisos.
+Los usuarios administradores son las personas del equipo que pueden ingresar al panel administrador con permisos.
 
 ## Funcionalidades por plan
 
@@ -112,7 +112,7 @@ por separado (Perú).**
 | Opción | Precio mensual | Incluye |
 |---|---|---|
 | Cualquier plan + POS | Precio del plan + S/ 30 + IGV por caja | Tienda online y punto de venta. |
-| Plan Micro + POS | S/ 79 + IGV | Tienda online y punto de venta (S/ 49 + S/ 30). |
+| Plan Micro + POS | S/ 79.90 + IGV | Punto de venta con tienda online: S/ 49.90 del POS + S/ 30 de la tienda. |
 | MiTienda POS solo | S/ 49.90 + IGV | El punto de venta. **No incluye tienda online.** |
 
 Con el POS solo, la primera caja va incluida y cada caja adicional cuesta
@@ -331,7 +331,7 @@ Es el plan recomendado para la mayoría de tiendas pequeñas y medianas que nece
 
 Para tiendas con catálogo amplio y operación más sofisticada.
 
-- 500 productos y 3 usuarios administradores, importación masiva, búsqueda avanzada, combos.
+- 500 productos y 2 usuarios administradores, importación masiva, búsqueda avanzada, combos.
 - Promociones y descuentos automáticos.
 - Recuperación de carritos abandonados, integraciones con email marketing y popups.
 - Couriers integrados en Perú (Olva, Urbano, Chazki, Urbaner y otros).
@@ -388,7 +388,7 @@ No. Todas las pasarelas de pago de tu país están disponibles en todos los plan
 Desde el plan Medium.
 
 **¿El POS está incluido en el plan Small?**
-No. El Punto de Venta presencial (POS) no viene incluido en ningún plan. En Perú puedes sumarlo a cualquier plan por S/ 30 + IGV al mes por caja (por ejemplo, Micro + POS = S/ 79 + IGV), o contratar el POS solo por S/ 49.90 + IGV al mes sin tienda online.
+No. El Punto de Venta presencial (POS) no viene incluido en ningún plan. En Perú puedes sumarlo a cualquier plan por S/ 30 + IGV al mes por caja (con la tienda online Micro, el total es S/ 79.90 + IGV), o contratar el POS solo por S/ 49.90 + IGV al mes sin tienda online.
 
 **¿La facturación electrónica está incluida?**
 En Perú y Ecuador, desde el plan Small. En Perú puedes emitir boletas y facturas electrónicas con Bizlinks, incluida en el plan, o conectar tu propia cuenta de Nubefact; en Ecuador emites ante el SRI a través de Dátil. El plan Micro no incluye facturación electrónica. En Colombia la facturación electrónica se gestiona fuera de la plataforma.
