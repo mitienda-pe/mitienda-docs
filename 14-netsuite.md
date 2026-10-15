@@ -13,6 +13,10 @@ NetSuite es un ERP empresarial. La integración con MiTienda permite sincronizar
 
 > Esta integración está diseñada para empresas que ya usan NetSuite como sistema central de gestión.
 
+::: info Solo plan Large
+Las integraciones con ERP, como NetSuite, están disponibles solamente en el plan **Large**. Ver [Planes y Precios](19-planes-y-precios.md).
+:::
+
 ## Configuración (4 pestañas)
 
 ### Pestaña 1: Credenciales

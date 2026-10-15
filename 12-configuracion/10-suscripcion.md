@@ -22,7 +22,7 @@ El estado de tu plan, cuánto de sus cuotas estás usando y el historial de tus 
 
 ## Uso del Plan
 
-Muestra cuántos **Productos**, **Paginas** y **Usuarios** usas frente al máximo de tu plan. La barra se pone amarilla al 70 % y roja al 90 %. Si tu plan no tiene límite, verás **Ilimitado**.
+Muestra cuántos **Productos** y **Usuarios** usas frente al máximo de tu plan (las páginas no tienen límite en ningún plan). La barra se pone amarilla al 70 % y roja al 90 %. Si tu plan no tiene límite, verás **Ilimitado**.
 
 ## Metodo de pago
 
@@ -54,7 +54,7 @@ Desde el día siguiente a la **Fecha de renovacion**, tu tienda deja de mostrars
 Ver [Pagué y mi tienda sigue "no disponible"](../23-cuenta/01-pagar-y-renovar.md#pagué-y-mi-tienda-sigue-no-disponible).
 
 **¿Puedo bajar a un plan menor?**
-Sí, pidiéndolo a soporte al renovar. Perderás acceso a los módulos que no incluye el plan inferior, y tus productos, páginas y usuarios deben entrar en las cuotas del plan nuevo.
+Sí, pidiéndolo a soporte al renovar. Perderás acceso a los módulos que no incluye el plan inferior, y tus productos y usuarios deben entrar en las cuotas del plan nuevo.
 
 **¿Los módulos que configuré se pierden si bajo de plan?**
 La configuración se conserva, pero los módulos dejan de estar accesibles hasta que vuelvas a un plan que los incluya.

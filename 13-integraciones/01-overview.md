@@ -11,6 +11,10 @@ description: Conecta tu tienda con herramientas de email marketing, publicidad, 
 
 Las integraciones conectan tu tienda con herramientas externas de email marketing, publicidad, analytics, chat, captura de leads y automatización.
 
+::: info Integraciones según el plan
+Las pasarelas de pago están en todos los planes. Las integraciones de **email marketing** y los **popups** están desde el plan **Medium**; los **webhooks** y las integraciones con **ERP** (NetSuite y otros), solo en el plan **Large**. Ver [Planes y Precios](../19-planes-y-precios.md).
+:::
+
 El módulo de Integraciones incluye:
 
 - **Proveedores** — Configura y gestiona todas tus integraciones desde un solo lugar

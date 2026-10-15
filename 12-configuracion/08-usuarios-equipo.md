@@ -34,7 +34,7 @@ Desde el listado de usuarios activos puedes eliminar el acceso de un colaborador
 ## Preguntas frecuentes
 
 **¿Cuántos usuarios puedo invitar?**
-El límite depende de tu plan de suscripción.
+Depende de tu plan: 1 usuario administrador en Micro y Small, 3 en Medium e ilimitados en Large. Ver [Planes y Precios](../19-planes-y-precios.md#cuotas-y-limites-por-plan).
 
 **¿Un usuario del equipo puede invitar a otros usuarios?**
 No. Solo el administrador principal (el dueño de la cuenta) puede gestionar los usuarios del equipo.

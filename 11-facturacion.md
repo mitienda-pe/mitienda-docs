@@ -1,6 +1,6 @@
 ---
 title: Facturación Electrónica
-description: Configura la emisión de boletas y facturas electrónicas en MiTienda.pe con Bizlinks (incluida en el plan) o con tu cuenta de Nubefact.
+description: Configura la emisión de comprobantes electrónicos en MiTienda.pe con Bizlinks (incluida en el plan) o con tu cuenta de Nubefact, y en TiendaBox.ec ante el SRI con Dátil.
 ---
 
 # Facturación Electrónica
@@ -9,13 +9,13 @@ description: Configura la emisión de boletas y facturas electrónicas en MiTien
 
 ## ¿Qué es la Facturación Electrónica?
 
-MiTienda emite comprobantes electrónicos (boletas y facturas) ante SUNAT a través de un proveedor de facturación. Una vez configurado, los comprobantes se generan automáticamente al confirmar el pago de un pedido.
+MiTienda emite comprobantes electrónicos a través de un proveedor de facturación: en Perú, boletas y facturas ante SUNAT; en Ecuador, facturas ante el SRI con [Dátil](#ecuador-facturacion-sri-con-datil). Una vez configurado, los comprobantes se generan automáticamente al confirmar el pago de un pedido.
 
 ::: info Desde el plan Small
-La facturación electrónica está disponible en los planes **Small**, **Medium** y **Large** (Perú). El plan Micro no la incluye. Ver [Planes y Precios](19-planes-y-precios.md).
+La facturación electrónica está disponible en los planes **Small**, **Medium** y **Large** en Perú y en Ecuador. El plan Micro no la incluye. En Colombia no está disponible por ahora. Ver [Planes y Precios](19-planes-y-precios.md).
 :::
 
-En **Facturación → Proveedores** eliges con qué proveedor emitir:
+En Perú, en **Facturación → Proveedores** eliges con qué proveedor emitir:
 
 | Proveedor | Qué necesitas | Costo |
 |---|---|---|
@@ -57,7 +57,19 @@ Ve a **Facturación → Proveedores** y completa:
 
 Haz clic en **Test de conexión** para verificar que las credenciales son correctas.
 
-## Tipos de comprobante
+## Ecuador: facturación SRI con Dátil
+
+En TiendaBox.ec emites tus comprobantes electrónicos autorizados por el SRI a través de [Dátil](https://datil.com), con tu propia cuenta.
+
+1. Ve a **Facturación → Proveedores** y abre **Dátil** (Ecuador / SRI).
+2. Ingresa tu **API Key** de Dátil y la **contraseña de tu firma electrónica** (.p12).
+3. Completa los datos del emisor (RUC, razón social, nombre comercial, dirección y si estás obligado a llevar contabilidad) y el **código de establecimiento**, el **punto de emisión** y el **secuencial inicial**.
+4. Elige el ambiente (**Pruebas** o **Producción**), guarda y usa **Probar conexión**.
+5. Si quieres que el comprobante salga solo al confirmar el pago, activa **Emisión automática de comprobantes**.
+
+En Ecuador no existe la boleta: todos los comprobantes de venta son facturas, en dólares (USD).
+
+## Tipos de comprobante (Perú)
 
 | Comprobante | Cuándo se emite |
 |---|---|

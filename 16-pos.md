@@ -46,7 +46,7 @@ plan o contratarlo por separado:
 
 | Opción | Precio mensual | Incluye |
 |---|---|---|
-| MiTienda POS solo | S/ 49 + IGV | El punto de venta. No incluye tienda online. |
+| MiTienda POS solo | S/ 49.90 + IGV | El punto de venta. No incluye tienda online. |
 | Plan Micro + POS | S/ 79 + IGV | Tienda online y punto de venta. |
 | Cualquier otro plan + POS | Precio del plan + S/ 30 + IGV por caja | Tienda online y punto de venta. |
 
@@ -60,7 +60,7 @@ Puedes ver el detalle y solicitar una demo en <https://pos.mitienda.pe>.
 ## Preguntas frecuentes
 
 **¿Cuánto cuesta el POS?**
-En Perú, S/ 49 + IGV al mes si lo contratas solo, o S/ 79 + IGV al mes junto con
+En Perú, S/ 49.90 + IGV al mes si lo contratas solo, o S/ 79 + IGV al mes junto con
 el plan Micro (tienda online + POS). Si ya tienes un plan Small, Medium o Large,
 lo sumas por S/ 30 + IGV al mes por caja.
 

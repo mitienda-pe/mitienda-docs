@@ -65,10 +65,9 @@ Estas cuotas son iguales para los 3 países.
 | Cuota | Micro | Small | Medium | Large |
 |---|---|---|---|---|
 | Productos | 50 | 100 | 500 | Ilimitado |
-| Páginas personalizadas | 5 | 10 | 25 | Ilimitado |
 | Usuarios administradores | 1 | 1 | 3 | Ilimitado |
 
-Las páginas personalizadas son páginas de contenido adicionales (Nosotros, FAQ, Términos, etc.) que se administran desde el módulo Contenido. Los usuarios administradores son las personas del equipo que pueden ingresar al panel administrador con permisos.
+Las páginas personalizadas (Nosotros, FAQ, Términos, etc.) no tienen límite en ningún plan. Los usuarios administradores son las personas del equipo que pueden ingresar al panel administrador con permisos.
 
 ## Funcionalidades por plan
 
@@ -114,7 +113,7 @@ por separado (Perú).**
 |---|---|---|
 | Cualquier plan + POS | Precio del plan + S/ 30 + IGV por caja | Tienda online y punto de venta. |
 | Plan Micro + POS | S/ 79 + IGV | Tienda online y punto de venta (S/ 49 + S/ 30). |
-| MiTienda POS solo | S/ 49 + IGV | El punto de venta. **No incluye tienda online.** |
+| MiTienda POS solo | S/ 49.90 + IGV | El punto de venta. **No incluye tienda online.** |
 
 Con el POS solo, la primera caja va incluida y cada caja adicional cuesta
 S/ 30 + IGV al mes.
@@ -148,6 +147,7 @@ El **diseño 100% personalizado** es un servicio bajo cotización: el equipo de 
 | Microsoft Clarity | — | ✓ | ✓ | ✓ |
 | Blog integrado | — | ✓ | ✓ | ✓ |
 | Integración con servicios de email marketing | — | — | ✓ | ✓ |
+| Popups (captura de correos y anuncios) | — | — | ✓ | ✓ |
 | Recuperación de carritos abandonados | — | — | ✓ | ✓ |
 | Notificaciones push | — | — | — | ✓ |
 
@@ -198,11 +198,11 @@ El soporte está disponible para todos los planes por igual a través de los sig
 | Webhooks (eventos en tiempo real) | — | — | — | ✓ |
 | Documentación técnica | — | — | — | ✓ |
 
-La integración por API y los webhooks están disponibles solamente en el plan Large. Si el negocio necesita conectar la tienda con un ERP, un WMS o un sistema externo vía API, requiere plan Large.
+La integración por API, los webhooks y las integraciones con ERP están disponibles solamente en el plan Large. Si el negocio necesita conectar la tienda con un ERP, un WMS o un sistema externo vía API, requiere plan Large.
 
 ## Integraciones por país
 
-Las integraciones disponibles dependen del país, ya que las pasarelas de pago, los couriers y los ERPs varían según el mercado.
+Las integraciones disponibles dependen del país, ya que las pasarelas de pago, los couriers y los ERPs varían según el mercado. **Todas las pasarelas de pago de cada país están disponibles en todos los planes.**
 
 ### Integraciones disponibles en Perú
 
@@ -211,12 +211,12 @@ Las integraciones disponibles dependen del país, ya que las pasarelas de pago, 
 | Pasarela | Micro | Small | Medium | Large |
 |---|:---:|:---:|:---:|:---:|
 | Mercadopago | ✓ | ✓ | ✓ | ✓ |
-| Culqi | — | ✓ | ✓ | ✓ |
-| Niubiz | — | ✓ | ✓ | ✓ |
-| Izipay | — | ✓ | ✓ | ✓ |
+| Culqi | ✓ | ✓ | ✓ | ✓ |
+| Niubiz | ✓ | ✓ | ✓ | ✓ |
+| Izipay | ✓ | ✓ | ✓ | ✓ |
 | Yape / Plin | ✓ | ✓ | ✓ | ✓ |
-| Openpay | — | — | ✓ | ✓ |
-| PayPal | — | — | ✓ | ✓ |
+| Openpay | ✓ | ✓ | ✓ | ✓ |
+| PayPal | ✓ | ✓ | ✓ | ✓ |
 
 **Facturación electrónica y legal**
 
@@ -264,11 +264,21 @@ recojo en tienda. Ver [Reparto y Envíos](10-envios.md).
 | Pasarela | Micro | Small | Medium | Large |
 |---|:---:|:---:|:---:|:---:|
 | Mercadopago | ✓ | ✓ | ✓ | ✓ |
-| PayPhone | — | ✓ | ✓ | ✓ |
-| Datafast | — | — | ✓ | ✓ |
-| Kushki | — | — | ✓ | ✓ |
-| PayPal | — | — | ✓ | ✓ |
-| D-Local | — | — | — | ✓ |
+| PayPhone | ✓ | ✓ | ✓ | ✓ |
+| Datafast | ✓ | ✓ | ✓ | ✓ |
+| Kushki | ✓ | ✓ | ✓ | ✓ |
+| PayPal | ✓ | ✓ | ✓ | ✓ |
+| D-Local | ✓ | ✓ | ✓ | ✓ |
+
+**Facturación electrónica**
+
+| Integración | Micro | Small | Medium | Large |
+|---|:---:|:---:|:---:|:---:|
+| Facturación electrónica SRI con Dátil | — | ✓ | ✓ | ✓ |
+
+En Ecuador la facturación electrónica se emite ante el SRI a través de Dátil,
+desde el plan Small, igual que en Perú. Ver
+[Facturación Electrónica](11-facturacion.md).
 
 **Couriers y despacho**
 
@@ -282,10 +292,10 @@ definir tus tarifas de envío por zona y ofrecer recojo en tienda.
 | Pasarela | Micro | Small | Medium | Large |
 |---|:---:|:---:|:---:|:---:|
 | Mercadopago | ✓ | ✓ | ✓ | ✓ |
-| PayU | — | ✓ | ✓ | ✓ |
-| Wompi | — | — | ✓ | ✓ |
-| PayPal | — | — | ✓ | ✓ |
-| D-Local | — | — | — | ✓ |
+| PayU | ✓ | ✓ | ✓ | ✓ |
+| Wompi | ✓ | ✓ | ✓ | ✓ |
+| PayPal | ✓ | ✓ | ✓ | ✓ |
+| D-Local | ✓ | ✓ | ✓ | ✓ |
 
 **Couriers y despacho**
 
@@ -299,7 +309,7 @@ definir tus tarifas de envío por zona y ofrecer recojo en tienda.
 Pensado para emprendedores que recién empiezan o validan una idea de negocio.
 
 - Catálogo limitado a 50 productos.
-- Una sola pasarela de pago (Mercadopago).
+- Todas las pasarelas de pago de tu país.
 - Sin Google Analytics, sin dominio propio, sin variantes.
 - Comisión 2,0% sobre ventas que superen el umbral mensual.
 
@@ -310,10 +320,9 @@ Es la opción más económica para tener una tienda funcional y empezar a vender
 El plan más popular para tiendas que ya están operando.
 
 - 100 productos, dominio propio, variantes y atributos.
-- Pasarelas locales (Culqi, Niubiz, Izipay en Perú; PayU en Colombia; PayPhone en Ecuador).
 - Google Analytics 4, Facebook Pixel + CAPI, Microsoft Clarity y Blog integrado.
 - Cupones de descuento.
-- Facturación electrónica en Perú (Bizlinks incluida en el plan, o tu cuenta Nubefact).
+- Facturación electrónica en Perú (Bizlinks incluida en el plan, o tu cuenta Nubefact) y en Ecuador (SRI, con Dátil).
 - Comisión 1,5%.
 
 Es el plan recomendado para la mayoría de tiendas pequeñas y medianas que necesitan vender con su propio dominio y rastrear conversiones.
@@ -322,9 +331,9 @@ Es el plan recomendado para la mayoría de tiendas pequeñas y medianas que nece
 
 Para tiendas con catálogo amplio y operación más sofisticada.
 
-- 500 productos, importación masiva, búsqueda avanzada, combos.
+- 500 productos y 3 usuarios administradores, importación masiva, búsqueda avanzada, combos.
 - Promociones y descuentos automáticos.
-- Recuperación de carritos abandonados, integraciones con email marketing.
+- Recuperación de carritos abandonados, integraciones con email marketing y popups.
 - Couriers integrados en Perú (Olva, Urbano, Chazki, Urbaner y otros).
 - Comisión 1,0%.
 
@@ -334,7 +343,7 @@ Recomendado para tiendas con ventas mensuales significativas que necesitan autom
 
 Para tiendas con alto volumen, integraciones a medida o catálogo grande.
 
-- Productos ilimitados.
+- Productos y usuarios administradores ilimitados.
 - API REST pública, API keys, webhooks y documentación técnica.
 - Integraciones con ERPs (NetSuite, Random, Contanet, TheHub) y WMS (Mintsoft, Urbano WMS) en Perú.
 - Reportes personalizados.
@@ -369,14 +378,20 @@ No. El dominio personalizado (por ejemplo `mitienda.com`) está disponible desde
 **¿Las variantes (talla, color) están en todos los planes?**
 No. Las variantes y atributos están disponibles desde el plan Small. El plan Micro sólo permite productos sin variantes.
 
-**¿La API y los webhooks están desde qué plan?**
+**¿La API, los webhooks y las integraciones con ERP están desde qué plan?**
 Sólo en el plan Large. Si el negocio necesita conectar la tienda con un ERP, WMS o sistema externo vía API, requiere Large.
 
+**¿Las pasarelas de pago dependen del plan?**
+No. Todas las pasarelas de pago de tu país están disponibles en todos los planes, desde Micro.
+
+**¿Desde qué plan puedo integrar email marketing o usar popups?**
+Desde el plan Medium.
+
 **¿El POS está incluido en el plan Small?**
-No. El Punto de Venta presencial (POS) no viene incluido en ningún plan. En Perú puedes sumarlo a cualquier plan por S/ 30 + IGV al mes por caja (por ejemplo, Micro + POS = S/ 79 + IGV), o contratar el POS solo por S/ 49 + IGV al mes sin tienda online.
+No. El Punto de Venta presencial (POS) no viene incluido en ningún plan. En Perú puedes sumarlo a cualquier plan por S/ 30 + IGV al mes por caja (por ejemplo, Micro + POS = S/ 79 + IGV), o contratar el POS solo por S/ 49.90 + IGV al mes sin tienda online.
 
 **¿La facturación electrónica está incluida?**
-En Perú, desde el plan Small. Puedes emitir boletas y facturas electrónicas con Bizlinks, incluida en el plan, o conectar tu propia cuenta de Nubefact. El plan Micro no incluye facturación electrónica. En Ecuador y Colombia la facturación electrónica se gestiona fuera de la plataforma.
+En Perú y Ecuador, desde el plan Small. En Perú puedes emitir boletas y facturas electrónicas con Bizlinks, incluida en el plan, o conectar tu propia cuenta de Nubefact; en Ecuador emites ante el SRI a través de Dátil. El plan Micro no incluye facturación electrónica. En Colombia la facturación electrónica se gestiona fuera de la plataforma.
 
 **¿Puedo cambiar de plan más adelante?**
 Sí, en cualquier momento, pidiéndolo a soporte. Los upgrades son inmediatos; los downgrades se aplican al final del período facturado.

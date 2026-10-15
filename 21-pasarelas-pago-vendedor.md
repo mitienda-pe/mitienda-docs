@@ -1,11 +1,11 @@
 ---
 title: Pasarelas de pago disponibles
-description: "Pasarelas de pago integradas con MiTienda y TiendaBox por país (Perú, Ecuador, Colombia): descripción, tipos de pago aceptados, plan requerido y enlace oficial de cada pasarela."
+description: "Pasarelas de pago integradas con MiTienda y TiendaBox por país (Perú, Ecuador, Colombia): descripción, tipos de pago aceptados y enlace oficial de cada pasarela."
 ---
 
 # Pasarelas de pago disponibles para el vendedor
 
-MiTienda y TiendaBox vienen integradas con las principales pasarelas de pago de cada país. Esta página describe qué pasarelas están disponibles para el vendedor, qué tipos de pago acepta cada una, desde qué plan se desbloquea y cómo contactarlas.
+MiTienda y TiendaBox vienen integradas con las principales pasarelas de pago de cada país. Esta página describe qué pasarelas están disponibles para el vendedor, qué tipos de pago acepta cada una y cómo contactarlas. **Todas las pasarelas están disponibles en todos los planes**, desde Micro.
 
 Esta es una guía de referencia para elegir qué pasarelas activar. Para el procedimiento de configuración paso a paso, ver [Formas de Pago](09-formas-pago.md).
 
@@ -29,7 +29,7 @@ Activar al menos 2 pasarelas y un método sin comisión (transferencia o pago co
 
 Pasarela del grupo Mercado Libre. Procesa tarjetas de crédito y débito, billeteras digitales (Yape, Plin), pagos en efectivo (PagoEfectivo) y permite **cuotas sin intereses** según el banco emisor.
 
-- **Disponible desde plan**: Micro
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta de crédito y débito, billeteras digitales, efectivo, cuotas
 - **Web oficial**: [https://www.mercadopago.com.pe](https://www.mercadopago.com.pe)
 
@@ -37,7 +37,7 @@ Pasarela del grupo Mercado Libre. Procesa tarjetas de crédito y débito, billet
 
 Pasarela peruana del grupo Credicorp (BCP). Procesa tarjetas de crédito y débito de Visa, Mastercard, American Express y Diners. También acepta Yape integrado.
 
-- **Disponible desde plan**: Small
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta de crédito y débito, Yape
 - **Web oficial**: [https://www.culqi.com](https://www.culqi.com)
 
@@ -45,7 +45,7 @@ Pasarela peruana del grupo Credicorp (BCP). Procesa tarjetas de crédito y débi
 
 Pasarela operada por Niubiz (antes VisaNet Perú). Procesa tarjetas de crédito y débito de Visa, Mastercard, American Express y Diners. Acepta cuotas sin intereses según el banco.
 
-- **Disponible desde plan**: Small
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta de crédito y débito, cuotas
 - **Web oficial**: [https://www.niubiz.com.pe](https://www.niubiz.com.pe)
 
@@ -53,7 +53,7 @@ Pasarela operada por Niubiz (antes VisaNet Perú). Procesa tarjetas de crédito 
 
 Pasarela operada por Izipay (Niubiz/BBVA/Scotiabank/Banco Pichincha). Procesa tarjetas de crédito y débito y soluciones digitales.
 
-- **Disponible desde plan**: Small
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta de crédito y débito
 - **Web oficial**: [https://www.izipay.pe](https://www.izipay.pe)
 
@@ -61,7 +61,7 @@ Pasarela operada por Izipay (Niubiz/BBVA/Scotiabank/Banco Pichincha). Procesa ta
 
 Billeteras móviles peruanas (Yape de BCP y Plin de Interbank/BBVA/Scotiabank). Permiten cobrar por código QR o número de celular asociado a la cuenta del vendedor. Algunas pasarelas (Mercadopago, Culqi) integran Yape de forma nativa; también se puede activar como método de pago independiente.
 
-- **Disponible desde plan**: Micro (todos los planes)
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: pago móvil con QR
 - **Web oficial Yape**: [https://www.yape.com.pe](https://www.yape.com.pe)
 - **Web oficial Plin**: [https://www.plin.com.pe](https://www.plin.com.pe)
@@ -70,7 +70,7 @@ Billeteras móviles peruanas (Yape de BCP y Plin de Interbank/BBVA/Scotiabank). 
 
 Pasarela del grupo BBVA (origen mexicano, presencia en Perú). Procesa tarjetas de crédito y débito, soporta 3D Secure y cuotas.
 
-- **Disponible desde plan**: Medium
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta de crédito y débito, cuotas, 3DS
 - **Web oficial**: [https://www.openpay.pe](https://www.openpay.pe)
 
@@ -78,7 +78,7 @@ Pasarela del grupo BBVA (origen mexicano, presencia en Perú). Procesa tarjetas 
 
 Pasarela global. Permite cobros en dólares y soles a clientes con cuenta PayPal o tarjeta. Útil para tiendas que venden al extranjero.
 
-- **Disponible desde plan**: Medium
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: cuenta PayPal, tarjeta internacional
 - **Web oficial**: [https://www.paypal.com/pe](https://www.paypal.com/pe)
 
@@ -88,7 +88,7 @@ Pasarela global. Permite cobros en dólares y soles a clientes con cuenta PayPal
 
 Pasarela del grupo Mercado Libre. Procesa tarjetas de crédito y débito, billeteras y cuotas.
 
-- **Disponible desde plan**: Micro
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta de crédito y débito, cuotas
 - **Web oficial**: [https://www.mercadopago.com.ec](https://www.mercadopago.com.ec)
 
@@ -96,7 +96,7 @@ Pasarela del grupo Mercado Libre. Procesa tarjetas de crédito y débito, billet
 
 Pasarela ecuatoriana. Procesa tarjetas y billetera PayPhone, popular en pagos por enlace y QR en Ecuador.
 
-- **Disponible desde plan**: Small
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta de crédito y débito, billetera PayPhone
 - **Web oficial**: [https://www.payphone.app](https://www.payphone.app)
 
@@ -104,7 +104,7 @@ Pasarela ecuatoriana. Procesa tarjetas y billetera PayPhone, popular en pagos po
 
 Pasarela ecuatoriana de Banco del Pichincha. Procesa tarjetas Visa, Mastercard, American Express y Diners con cuotas (Diferido).
 
-- **Disponible desde plan**: Medium
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta de crédito y débito, cuotas (Diferido)
 - **Web oficial**: [https://www.datafast.com.ec](https://www.datafast.com.ec)
 
@@ -112,7 +112,7 @@ Pasarela ecuatoriana de Banco del Pichincha. Procesa tarjetas Visa, Mastercard, 
 
 Pasarela regional con cobertura LATAM (Ecuador, Colombia, Perú, Chile, México). Procesa tarjetas y métodos locales.
 
-- **Disponible desde plan**: Medium
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta de crédito y débito, métodos locales
 - **Web oficial**: [https://www.kushkipagos.com](https://www.kushkipagos.com)
 
@@ -120,7 +120,7 @@ Pasarela regional con cobertura LATAM (Ecuador, Colombia, Perú, Chile, México)
 
 Pasarela global. Permite cobros en dólares a clientes con cuenta PayPal o tarjeta.
 
-- **Disponible desde plan**: Medium
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: cuenta PayPal, tarjeta internacional
 - **Web oficial**: [https://www.paypal.com/ec](https://www.paypal.com/ec)
 
@@ -128,7 +128,7 @@ Pasarela global. Permite cobros en dólares a clientes con cuenta PayPal o tarje
 
 Pasarela LATAM enfocada en cross-border (cobros desde y hacia varios países). Recomendada para tiendas con clientes internacionales.
 
-- **Disponible desde plan**: Large
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta internacional, métodos locales LATAM
 - **Web oficial**: [https://www.dlocal.com](https://www.dlocal.com)
 
@@ -138,7 +138,7 @@ Pasarela LATAM enfocada en cross-border (cobros desde y hacia varios países). R
 
 Pasarela del grupo Mercado Libre. Procesa tarjetas, PSE y billeteras.
 
-- **Disponible desde plan**: Micro
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta de crédito y débito, PSE, billeteras
 - **Web oficial**: [https://www.mercadopago.com.co](https://www.mercadopago.com.co)
 
@@ -146,7 +146,7 @@ Pasarela del grupo Mercado Libre. Procesa tarjetas, PSE y billeteras.
 
 Pasarela del grupo PayU Latam (presencia en Colombia, México, Perú, Argentina, Brasil, Chile). Procesa tarjetas, PSE, Efecty y otros métodos locales.
 
-- **Disponible desde plan**: Small
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta de crédito y débito, PSE, Efecty
 - **Web oficial**: [https://www.payu.com.co](https://www.payu.com.co)
 
@@ -154,7 +154,7 @@ Pasarela del grupo PayU Latam (presencia en Colombia, México, Perú, Argentina,
 
 Pasarela del grupo Bancolombia. Procesa tarjetas, PSE, Nequi (billetera) y Bancolombia.
 
-- **Disponible desde plan**: Medium
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta, PSE, Nequi, transferencia Bancolombia
 - **Web oficial**: [https://wompi.co](https://wompi.co)
 
@@ -162,7 +162,7 @@ Pasarela del grupo Bancolombia. Procesa tarjetas, PSE, Nequi (billetera) y Banco
 
 Pasarela global. Permite cobros en dólares a clientes con cuenta PayPal o tarjeta.
 
-- **Disponible desde plan**: Medium
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: cuenta PayPal, tarjeta internacional
 - **Web oficial**: [https://www.paypal.com/co](https://www.paypal.com/co)
 
@@ -170,7 +170,7 @@ Pasarela global. Permite cobros en dólares a clientes con cuenta PayPal o tarje
 
 Pasarela LATAM enfocada en cross-border (cobros desde y hacia varios países).
 
-- **Disponible desde plan**: Large
+- **Disponible en**: todos los planes (desde Micro)
 - **Tipos de pago**: tarjeta internacional, métodos locales LATAM
 - **Web oficial**: [https://www.dlocal.com](https://www.dlocal.com)
 

@@ -94,6 +94,10 @@ Envía notificaciones push a los navegadores de tus visitantes.
 
 Herramientas para mostrar popups, barras de anuncio y formularios de captura de leads.
 
+::: info Desde el plan Medium
+Los popups y la captura de leads están disponibles en los planes **Medium** y **Large**. Ver [Planes y Precios](../19-planes-y-precios.md).
+:::
+
 | Proveedor | Credenciales requeridas | Sitio web |
 | --- | --- | --- |
 | **OptinMonster** | Account ID, User ID | [optinmonster.com](https://optinmonster.com) |

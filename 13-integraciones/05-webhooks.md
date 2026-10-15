@@ -11,6 +11,10 @@ description: Envía eventos de tu tienda a cualquier URL para integraciones pers
 
 Los webhooks te permiten enviar los eventos de tu tienda a cualquier URL de tu elección, como tu propio servidor, un sistema interno o una herramienta que no está en la lista de integraciones.
 
+::: info Solo plan Large
+Los webhooks están disponibles solamente en el plan **Large**. Ver [Planes y Precios](../19-planes-y-precios.md).
+:::
+
 ## Crear una suscripción
 
 Haz clic en **+ Nueva suscripción** y configura:

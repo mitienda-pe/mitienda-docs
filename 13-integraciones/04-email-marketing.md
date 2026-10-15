@@ -11,6 +11,10 @@ description: Integra tu tienda con plataformas de email marketing para automatiz
 
 Las integraciones de email marketing envían automáticamente datos de tu tienda (pedidos, clientes, carritos abandonados) a tu plataforma de email marketing. Así puedes crear automatizaciones, segmentar audiencias y enviar campañas basadas en el comportamiento real de tus clientes.
 
+::: info Desde el plan Medium
+Las integraciones de email marketing están disponibles en los planes **Medium** y **Large**. Ver [Planes y Precios](../19-planes-y-precios.md).
+:::
+
 ## Proveedores disponibles
 
 | Proveedor | Eventos soportados | Credenciales requeridas |

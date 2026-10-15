@@ -54,7 +54,7 @@ Pide los datos de pago a soporte al momento de renovar: no los envíes a cuentas
 
 ### Cambiar de plan al renovar
 
-Para subir o bajar de plan, pídelo a soporte, al renovar o en cualquier momento. Desde el panel no se puede cambiar de plan por tu cuenta. Las condiciones de cada cambio están en [Cambios de plan](../19-planes-y-precios.md#cambios-de-plan). Si bajas de plan, revisa antes las cuotas de productos, páginas y usuarios del plan nuevo: las ves en el bloque **Uso del Plan** de esta misma pantalla.
+Para subir o bajar de plan, pídelo a soporte, al renovar o en cualquier momento. Desde el panel no se puede cambiar de plan por tu cuenta. Las condiciones de cada cambio están en [Cambios de plan](../19-planes-y-precios.md#cambios-de-plan). Si bajas de plan, revisa antes las cuotas de productos y usuarios del plan nuevo: las ves en el bloque **Uso del Plan** de esta misma pantalla.
 
 ## Qué pasa cuando vence el plan
 
