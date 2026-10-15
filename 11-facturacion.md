@@ -1,6 +1,6 @@
 ---
 title: Facturación Electrónica
-description: Configura la emisión de boletas y facturas electrónicas con Nubefact integrado a MiTienda.pe.
+description: Configura la emisión de boletas y facturas electrónicas en MiTienda.pe con Bizlinks (incluida en el plan) o con tu cuenta de Nubefact.
 ---
 
 # Facturación Electrónica
@@ -9,15 +9,34 @@ description: Configura la emisión de boletas y facturas electrónicas con Nubef
 
 ## ¿Qué es la Facturación Electrónica?
 
-MiTienda se integra con **Nubefact** (proveedor autorizado por SUNAT) para emitir comprobantes electrónicos: boletas y facturas. Una vez configurado, los comprobantes se generan automáticamente al confirmar el pago de un pedido.
+MiTienda emite comprobantes electrónicos (boletas y facturas) ante SUNAT a través de un proveedor de facturación. Una vez configurado, los comprobantes se generan automáticamente al confirmar el pago de un pedido.
+
+::: info Desde el plan Small
+La facturación electrónica está disponible en los planes **Small**, **Medium** y **Large** (Perú). El plan Micro no la incluye. Ver [Planes y Precios](19-planes-y-precios.md).
+:::
+
+En **Facturación → Proveedores** eliges con qué proveedor emitir:
+
+| Proveedor | Qué necesitas | Costo |
+|---|---|---|
+| **Bizlinks — incluida en el plan** (recomendado) | Solo tus datos fiscales y tus series. No necesitas cuenta ni credenciales | Incluido en tu plan |
+| **Nubefact** | Tu propia cuenta en Nubefact y su token de acceso | Nubefact te cobra por comprobante |
 
 ## Requisitos previos
 
 Para usar facturación electrónica necesitas:
 - **RUC activo** con condición "Habido" en SUNAT
-- Una cuenta en **Nubefact** (puedes crearla en nubefact.com)
-- El **token de acceso** de tu cuenta Nubefact
 - Las **series** de tus documentos (ej: B001 para boletas, F001 para facturas)
+- Si eliges Nubefact: una cuenta en **Nubefact** (puedes crearla en nubefact.com) y su **token de acceso**
+
+## Configurar Bizlinks (incluida en el plan)
+
+1. Ve a **Facturación → Proveedores** y abre **Bizlinks**.
+2. En **Facturación electrónica**, deja marcada la opción **Incluida en el plan**.
+3. Completa **Datos del emisor** (RUC, razón social, nombre comercial, dirección, ubigeo y correo) y **Series de documentos** (serie y número inicial de factura y de boleta).
+4. Guarda la configuración.
+
+MiTienda registra tu RUC en Bizlinks para activarlo; una vez activo podrás emitir. Si ya tienes una cuenta propia en Bizlinks, elige **Usar mis propias credenciales Bizlinks** e ingresa tu usuario y contraseña.
 
 ## Configurar Nubefact
 

@@ -61,7 +61,7 @@ Pasarela operada por Izipay (Niubiz/BBVA/Scotiabank/Banco Pichincha). Procesa ta
 
 Billeteras móviles peruanas (Yape de BCP y Plin de Interbank/BBVA/Scotiabank). Permiten cobrar por código QR o número de celular asociado a la cuenta del vendedor. Algunas pasarelas (Mercadopago, Culqi) integran Yape de forma nativa; también se puede activar como método de pago independiente.
 
-- **Disponible desde plan**: Small
+- **Disponible desde plan**: Micro (todos los planes)
 - **Tipos de pago**: pago móvil con QR
 - **Web oficial Yape**: [https://www.yape.com.pe](https://www.yape.com.pe)
 - **Web oficial Plin**: [https://www.plin.com.pe](https://www.plin.com.pe)

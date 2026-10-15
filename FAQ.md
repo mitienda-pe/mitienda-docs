@@ -34,7 +34,7 @@ Contacta al soporte de MiTienda para gestionar el cambio de titularidad de una t
 ## Suscripción y Pagos del Plan
 
 **¿Cómo pago o renuevo mi plan? ¿Puedo pagar con Yape o transferencia?**
-La renovación se coordina con soporte desde el botón de ayuda **?** → **Soporte humano**. Se acepta transferencia o depósito bancario, Yape y tarjeta. Ver: [Pagar o renovar tu plan](23-cuenta/01-pagar-y-renovar.md).
+La renovación se coordina con soporte desde el botón de ayuda **?** → **Soporte humano**. Se acepta tarjeta, transferencia o depósito bancario y Yape. Si pagas mes a mes, lo recomendado es el cobro automático con tarjeta; si pagas el plan anual, la transferencia bancaria. Ver: [Pagar o renovar tu plan](23-cuenta/01-pagar-y-renovar.md#medios-de-pago).
 
 **Pagué y mi tienda sigue fuera de servicio.**
 Revisa en **Tu Tienda → Suscripcion → Historial de Suscripciones** que el pago esté registrado, espera unos minutos y recarga sin caché. Ver: [Pagué y mi tienda sigue "no disponible"](23-cuenta/01-pagar-y-renovar.md#pagué-y-mi-tienda-sigue-no-disponible).

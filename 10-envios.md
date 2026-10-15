@@ -50,17 +50,26 @@ Para cada tarifa puedes definir:
 
 Integra tu tienda con couriers para calcular tarifas y crear órdenes de envío automáticamente.
 
+::: info Desde el plan Medium
+**Proveedores** (y las reglas de courier) están disponibles en los planes **Medium** y **Large**. Las zonas, tarifas y el recojo en tienda están en todos los planes.
+:::
+
 ### Couriers disponibles
 
-| Courier | Cobertura |
+| Courier | Cobertura y servicio |
 |---|---|
-| **Chazki** | Perú |
-| **Urbaner** | Perú y LATAM |
-| **Urbano Express** | Perú (calcula por ubigeo y dimensiones) |
-| **Yango** | LATAM (delivery express con tracking en vivo) |
-| **99minutos** | México y LATAM (same-day delivery) |
-| **Nirex** | Lima (última milla programada) |
-| **Hop** | Argentina |
+| **Olva Courier** | Todo el Perú. Recojos y logística inversa |
+| **Urbano** | Todo el Perú (calcula por ubigeo y dimensiones) |
+| **Chazki** | Lima y ciudades principales del Perú (Regular, Express y Programado) |
+| **Urbaner** | Lima |
+| **Cabify Logistics** | Lima Metropolitana (express y same day) |
+| **Home Delivery** | Operador de Grupo Falabella, envíos a provincias |
+| **Nirex** | Lima Metropolitana y Callao (última milla programada) |
+| **Yango Delivery** | Entregas express dentro de la ciudad |
+| **99 Minutos** | Envíos locales en el día |
+| **HOP Envíos** | Red de puntos de entrega y retiro (Perú, Argentina y Uruguay) |
+
+Por ahora no hay couriers integrados para Ecuador ni Colombia: allí despachas con tus propias tarifas por zona o con recojo en tienda.
 
 ### Configurar un courier
 

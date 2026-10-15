@@ -15,10 +15,10 @@ Depende de lo que veas en **Tu Tienda → Suscripcion**:
 |---|---|
 | El bloque **Metodo de pago** con una tarjeta y la línea **Proximo cargo** (monto y fecha) | Tu plan se renueva automáticamente con esa tarjeta |
 | El bloque **Metodo de pago** con una tarjeta, pero **sin Proximo cargo** | La tarjeta quedó guardada, pero tu renovación todavía no está programada. Sigue renovando con soporte, como se explica en [Pagar o renovar tu plan](01-pagar-y-renovar.md) |
-| No aparece el bloque **Metodo de pago** | El cobro automático todavía no está disponible para tu tienda. Renueva con soporte |
+| No aparece el bloque **Metodo de pago** | Tu tarjeta no se gestiona desde el panel. Si soporte activó el cobro automático de tu plan, cualquier cambio (de tarjeta o de medio de pago) se pide a soporte |
 
-::: info El cobro automático se habilita por etapas
-La mayoría de las tiendas renuevan hoy coordinando el pago con soporte. Si quieres que tu plan se cobre solo con tarjeta, pídelo por el botón **?** → **Soporte humano**.
+::: info Recomendado para planes mensuales
+Si pagas tu plan **mes a mes**, el cobro automático con tarjeta es el medio recomendado: tu plan se renueva solo. Para activarlo, pídelo por el botón **?** → **Soporte humano**. Si pagas tu plan **anual**, el medio recomendado es la transferencia bancaria. Ver [Pagar o renovar tu plan](01-pagar-y-renovar.md#medios-de-pago).
 :::
 
 ## Agregar una tarjeta
@@ -28,7 +28,7 @@ La mayoría de las tiendas renuevan hoy coordinando el pago con soporte. Si quie
 3. Completa **Numero de tarjeta**, **Vencimiento**, **CVV**, **Nombre del titular**, **Tipo de documento** y **Numero de documento**.
 4. Haz clic en **Guardar tarjeta**.
 
-Los datos de la tarjeta viajan directo a MercadoPago. MiTienda solo guarda los últimos cuatro dígitos.
+Los datos de la tarjeta viajan directo a la pasarela de pagos. MiTienda solo guarda los últimos cuatro dígitos.
 
 ## Cambiar la tarjeta
 
@@ -49,7 +49,7 @@ Haz clic en **Eliminar** junto a la tarjeta y confirma. Al eliminarla, **la reno
 ## Preguntas frecuentes
 
 **¿Qué tarjetas puedo usar?**
-Tarjetas de crédito o débito que acepte MercadoPago.
+Tarjetas de crédito o débito.
 
 **Se venció mi tarjeta, ¿qué hago?**
 Registra una tarjeta vigente siguiendo los pasos de [Cambiar la tarjeta](#cambiar-la-tarjeta).

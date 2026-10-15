@@ -39,9 +39,18 @@ Hoy el panel **no tiene un botón para pagar** la suscripción. La renovación s
 
 Los precios de cada plan están en [Planes y Precios](../19-planes-y-precios.md).
 
-### ¿Puedo pagar con Yape o transferencia?
+### ¿Puedo pagar con Yape o transferencia? {#medios-de-pago}
 
-Sí. Los pagos de suscripción se reciben por **transferencia o depósito bancario**, **Yape** y **tarjeta**. Pide los datos de pago a soporte al momento de renovar: no los envíes a cuentas que no te haya indicado el equipo de MiTienda.
+Sí. La suscripción se puede pagar con **tarjeta**, **transferencia o depósito bancario** y **Yape**. El medio que te recomendamos depende de cómo pagues tu plan:
+
+| Si pagas tu plan... | Te recomendamos | Por qué |
+|---|---|---|
+| **Mensual** | **Cobro automático con tarjeta** | Tu plan se renueva solo cada mes y no tienes que coordinar un pago cada vez |
+| **Anual** | **Transferencia bancaria** | Es un solo pago al año |
+
+Para activar el cobro automático con tarjeta, pídelo a soporte al contratar o al renovar. Más detalle en [Cobro automático con tarjeta](02-tarjeta-cobro-automatico.md).
+
+Pide los datos de pago a soporte al momento de renovar: no los envíes a cuentas que no te haya indicado el equipo de MiTienda.
 
 ### Cambiar de plan al renovar
 

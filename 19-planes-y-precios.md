@@ -102,22 +102,22 @@ Notas:
 | Transferencia / depósito bancario | ✓ | ✓ | ✓ | ✓ |
 | Cupones de descuento | — | ✓ | ✓ | ✓ |
 | Promociones y descuentos | — | — | ✓ | ✓ |
-| Punto de venta presencial (POS) | — | ✓ | ✓ | ✓ |
+| Punto de venta presencial (POS) | Adicional | Adicional | Adicional | Adicional |
 | Reservas y pedidos en espera | — | — | — | ✓ |
 
 El POS de MiTienda permite vender de manera presencial (en mostrador, ferias, eventos), emitir comprobantes e integrar el inventario con la tienda online en tiempo real.
 
-**El POS también se vende por separado (Perú).** No hace falta un plan Small o
-superior para usarlo:
+**El POS no viene incluido en ningún plan: se suma como adicional o se contrata
+por separado (Perú).**
 
 | Opción | Precio mensual | Incluye |
 |---|---|---|
-| Plan Micro | S/ 49 + IGV | Tienda online. **No incluye POS.** |
+| Cualquier plan + POS | Precio del plan + S/ 30 + IGV por caja | Tienda online y punto de venta. |
+| Plan Micro + POS | S/ 79 + IGV | Tienda online y punto de venta (S/ 49 + S/ 30). |
 | MiTienda POS solo | S/ 49 + IGV | El punto de venta. **No incluye tienda online.** |
-| Plan Micro + POS | S/ 79 + IGV | Ambos: tienda online y punto de venta. |
 
-Cada caja adicional cuesta S/ 30 + IGV al mes. Los planes Small, Medium y Large
-ya incluyen el POS sin costo extra.
+Con el POS solo, la primera caja va incluida y cada caja adicional cuesta
+S/ 30 + IGV al mes.
 
 Más detalle en [POS — Punto de Venta](/16-pos) y en <https://pos.mitienda.pe>.
 
@@ -214,7 +214,7 @@ Las integraciones disponibles dependen del país, ya que las pasarelas de pago, 
 | Culqi | — | ✓ | ✓ | ✓ |
 | Niubiz | — | ✓ | ✓ | ✓ |
 | Izipay | — | ✓ | ✓ | ✓ |
-| Yape / Plin | — | ✓ | ✓ | ✓ |
+| Yape / Plin | ✓ | ✓ | ✓ | ✓ |
 | Openpay | — | — | ✓ | ✓ |
 | PayPal | — | — | ✓ | ✓ |
 
@@ -222,17 +222,32 @@ Las integraciones disponibles dependen del país, ya que las pasarelas de pago, 
 
 | Integración | Micro | Small | Medium | Large |
 |---|:---:|:---:|:---:|:---:|
-| Facturación electrónica (Nubefact) | — | — | ✓ | ✓ |
+| Facturación electrónica con Bizlinks (incluida en el plan) | — | ✓ | ✓ | ✓ |
+| Facturación electrónica con tu cuenta Nubefact | — | ✓ | ✓ | ✓ |
 | Libro de reclamaciones digital | ✓ | ✓ | ✓ | ✓ |
+
+La facturación electrónica está desde el plan Small. Puedes emitir con Bizlinks
+sin contratar un proveedor (viene incluida en el plan) o conectar tu propia
+cuenta de Nubefact, que te cobra por comprobante. Ver
+[Facturación Electrónica](11-facturacion.md).
 
 **Couriers y despacho**
 
 | Courier | Micro | Small | Medium | Large |
 |---|:---:|:---:|:---:|:---:|
-| Urbano | — | ✓ | ✓ | ✓ |
+| Olva Courier | — | — | ✓ | ✓ |
+| Urbano | — | — | ✓ | ✓ |
 | Chazki | — | — | ✓ | ✓ |
 | Urbaner | — | — | ✓ | ✓ |
-| Shalom | — | — | ✓ | ✓ |
+| Cabify Logistics | — | — | ✓ | ✓ |
+| Home Delivery | — | — | ✓ | ✓ |
+| Nirex | — | — | ✓ | ✓ |
+| Yango Delivery | — | — | ✓ | ✓ |
+| 99 Minutos | — | — | ✓ | ✓ |
+| HOP Envíos | — | — | ✓ | ✓ |
+
+En todos los planes puedes definir tus propias tarifas por zona y ofrecer
+recojo en tienda. Ver [Reparto y Envíos](10-envios.md).
 
 **ERPs y WMS**
 
@@ -257,11 +272,8 @@ Las integraciones disponibles dependen del país, ya que las pasarelas de pago, 
 
 **Couriers y despacho**
 
-| Courier | Micro | Small | Medium | Large |
-|---|:---:|:---:|:---:|:---:|
-| Servientrega | — | ✓ | ✓ | ✓ |
-| Tramaco | — | — | ✓ | ✓ |
-| Laar Courier | — | — | ✓ | ✓ |
+Por ahora no hay couriers integrados en Ecuador. En todos los planes puedes
+definir tus tarifas de envío por zona y ofrecer recojo en tienda.
 
 ### Integraciones disponibles en Colombia
 
@@ -277,12 +289,8 @@ Las integraciones disponibles dependen del país, ya que las pasarelas de pago, 
 
 **Couriers y despacho**
 
-| Courier | Micro | Small | Medium | Large |
-|---|:---:|:---:|:---:|:---:|
-| Servientrega | — | ✓ | ✓ | ✓ |
-| Coordinadora | — | ✓ | ✓ | ✓ |
-| Interrapidísimo | — | — | ✓ | ✓ |
-| Envia.co | — | — | ✓ | ✓ |
+Por ahora no hay couriers integrados en Colombia. En todos los planes puedes
+definir tus tarifas de envío por zona y ofrecer recojo en tienda.
 
 ## ¿Qué plan elegir?
 
@@ -302,10 +310,10 @@ Es la opción más económica para tener una tienda funcional y empezar a vender
 El plan más popular para tiendas que ya están operando.
 
 - 100 productos, dominio propio, variantes y atributos.
-- Pasarelas locales (Culqi, Niubiz, Izipay, Yape/Plin en Perú; PayU en Colombia; PayPhone en Ecuador).
+- Pasarelas locales (Culqi, Niubiz, Izipay en Perú; PayU en Colombia; PayPhone en Ecuador).
 - Google Analytics 4, Facebook Pixel + CAPI, Microsoft Clarity y Blog integrado.
 - Cupones de descuento.
-- Punto de Venta presencial (POS).
+- Facturación electrónica en Perú (Bizlinks incluida en el plan, o tu cuenta Nubefact).
 - Comisión 1,5%.
 
 Es el plan recomendado para la mayoría de tiendas pequeñas y medianas que necesitan vender con su propio dominio y rastrear conversiones.
@@ -316,13 +324,11 @@ Para tiendas con catálogo amplio y operación más sofisticada.
 
 - 500 productos, importación masiva, búsqueda avanzada, combos.
 - Promociones y descuentos automáticos.
-- Punto de Venta presencial (POS).
-- Facturación electrónica (Nubefact en Perú).
 - Recuperación de carritos abandonados, integraciones con email marketing.
-- Couriers ampliados.
+- Couriers integrados en Perú (Olva, Urbano, Chazki, Urbaner y otros).
 - Comisión 1,0%.
 
-Recomendado para tiendas con ventas mensuales significativas que necesitan automatizar marketing, emitir comprobantes electrónicos o vender presencialmente.
+Recomendado para tiendas con ventas mensuales significativas que necesitan automatizar marketing o despachar con couriers integrados.
 
 ### Plan Large
 
@@ -367,10 +373,10 @@ No. Las variantes y atributos están disponibles desde el plan Small. El plan Mi
 Sólo en el plan Large. Si el negocio necesita conectar la tienda con un ERP, WMS o sistema externo vía API, requiere Large.
 
 **¿El POS está incluido en el plan Small?**
-Sí. El Punto de Venta presencial (POS) viene incluido en los planes Small, Medium y Large. El plan Micro no lo incluye, pero en Perú puedes sumarlo por S/ 30 + IGV al mes (Micro + POS = S/ 79 + IGV), o contratar el POS solo por S/ 49 + IGV al mes sin tienda online.
+No. El Punto de Venta presencial (POS) no viene incluido en ningún plan. En Perú puedes sumarlo a cualquier plan por S/ 30 + IGV al mes por caja (por ejemplo, Micro + POS = S/ 79 + IGV), o contratar el POS solo por S/ 49 + IGV al mes sin tienda online.
 
 **¿La facturación electrónica está incluida?**
-En Perú, la integración con Nubefact para emitir comprobantes electrónicos (boletas y facturas) está disponible desde el plan Medium. En Ecuador y Colombia la facturación electrónica se gestiona fuera de la plataforma.
+En Perú, desde el plan Small. Puedes emitir boletas y facturas electrónicas con Bizlinks, incluida en el plan, o conectar tu propia cuenta de Nubefact. El plan Micro no incluye facturación electrónica. En Ecuador y Colombia la facturación electrónica se gestiona fuera de la plataforma.
 
 **¿Puedo cambiar de plan más adelante?**
 Sí, en cualquier momento, pidiéndolo a soporte. Los upgrades son inmediatos; los downgrades se aplican al final del período facturado.
