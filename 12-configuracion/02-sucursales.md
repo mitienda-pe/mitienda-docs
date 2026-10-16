@@ -5,7 +5,7 @@ description: Gestiona tus puntos de recojo y direcciones de remitente para enví
 
 # Sucursales y Direcciones
 
-**Ruta:** Panel Administrador → Tu Tienda → Sucursales
+**Ruta:** Panel Administrador → Tu Tienda → Direcciones
 
 ## ¿Para qué sirven las Sucursales?
 
@@ -23,7 +23,7 @@ Las sucursales tienen dos usos principales:
 | Teléfono | Teléfono de la sucursal |
 | Horario de atención | Días y horas de apertura |
 | Coordenadas | Latitud y longitud (para mapa) |
-| Es punto de recojo | Si aparece como opción de pickup en el checkout |
+| Punto de recojo | Si aparece como opción de recojo en el checkout |
 | Es dirección de remitente | Si se usa como origen en las etiquetas de envío |
 
 ## Preguntas frecuentes

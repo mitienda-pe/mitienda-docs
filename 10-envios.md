@@ -86,7 +86,7 @@ Por ahora no hay couriers integrados para Ecuador ni Colombia: allí despachas c
 
 ## Sucursales como punto de recojo
 
-Si ofreces recojo en tienda, asegúrate de configurar tus sucursales en **Tu Tienda → Sucursales**. Cada sucursal marcada como "punto de recojo" aparecerá como opción en el checkout. Ver: [Sucursales](12-configuracion/02-sucursales.md).
+Si ofreces recojo en tienda, configura tus direcciones en **Tu Tienda → Direcciones** y activa **Punto de recojo** en cada una. Cada dirección marcada así aparecerá como opción en el checkout. Ver: [Sucursales](12-configuracion/02-sucursales.md).
 
 ## Preguntas frecuentes
 
